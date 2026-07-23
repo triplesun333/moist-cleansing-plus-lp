@@ -65,7 +65,7 @@
 }
 .ep-guide-page *{box-sizing:border-box;}
 .ep-guide-page img{max-width:100%;display:block;}
-.ep-guide-page a{color:inherit;}
+:where(.ep-guide-page) a{color:inherit;}
 .ep-guide-page ul,.ep-guide-page dl{list-style:none;margin:0;padding:0;}
 
 .ep-serif{font-family:'Shippori Mincho',serif;}
@@ -217,7 +217,14 @@
 .ep-manga{background:var(--ivory);}
 .ep-manga-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;}
 .ep-manga-item{margin:0;}
-.ep-manga-item img{width:100%;aspect-ratio:1/1;object-fit:cover;border:1px solid var(--gold-light);background:var(--paper);}
+.ep-manga-frame{
+  position:relative;width:100%;padding-top:100%;overflow:hidden;
+  border:1px solid var(--gold-light);background:var(--paper);
+}
+.ep-manga-frame img{
+  position:absolute;top:0;left:0;width:100%;height:100%;
+  object-fit:cover;border:none;
+}
 .ep-manga-item figcaption{font-size:12.5px;color:var(--ink-soft);line-height:1.85;margin-top:12px;}
 
 /* ======== 選ばれる理由 ======== */
@@ -609,19 +616,19 @@
       </div>
       <div class="ep-manga-grid ep-reveal">
         <figure class="ep-manga-item">
-          <img src="images/manga1.jpg" alt="お客様からの手紙を読む岡江美希" width="1024" height="1024" loading="lazy">
+          <div class="ep-manga-frame"><img src="images/manga1.jpg" alt="お客様からの手紙を読む岡江美希" width="1024" height="1024" loading="lazy"></div>
           <figcaption>「保湿感はそのままで、マスカラもしっかり落としたい」――お客様からの、うれしいリクエスト。</figcaption>
         </figure>
         <figure class="ep-manga-item">
-          <img src="images/manga2.jpg" alt="植物オイルを研究する岡江美希" width="1024" height="1024" loading="lazy">
+          <div class="ep-manga-frame"><img src="images/manga2.jpg" alt="植物オイルを研究する岡江美希" width="1024" height="1024" loading="lazy"></div>
           <figcaption>石油系の洗浄成分ではなく、米ぬか油とコーン油、2つの植物オイルに着目。</figcaption>
         </figure>
         <figure class="ep-manga-item">
-          <img src="images/manga3.jpg" alt="完成したジェルを見つめる岡江美希" width="1024" height="1024" loading="lazy">
+          <div class="ep-manga-frame"><img src="images/manga3.jpg" alt="完成したジェルを見つめる岡江美希" width="1024" height="1024" loading="lazy"></div>
           <figcaption>メイクを包み込むような、もっちりとした濃密ジェルがようやく完成。</figcaption>
         </figure>
         <figure class="ep-manga-item">
-          <img src="images/manga4.jpg" alt="洗い上がりの心地よさに微笑む岡江美希" width="1024" height="1024" loading="lazy">
+          <div class="ep-manga-frame"><img src="images/manga4.jpg" alt="洗い上がりの心地よさに微笑む岡江美希" width="1024" height="1024" loading="lazy"></div>
           <figcaption>洗い上がりの、つっぱらない心地よさ。まるでスキンケアのあとのように。</figcaption>
         </figure>
       </div>
