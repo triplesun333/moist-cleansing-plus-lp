@@ -231,6 +231,12 @@
 .ep-reasons{background:var(--paper);}
 .ep-reason-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:44px;}
 .ep-reason-card{border-top:2px solid var(--gold-deep);padding-top:22px;}
+.ep-reason-icon{
+  display:flex;align-items:center;justify-content:center;
+  width:44px;height:44px;border-radius:50%;background:var(--green-pale);
+  color:var(--green-deep);margin-bottom:16px;
+}
+.ep-reason-icon svg{width:22px;height:22px;}
 .ep-reason-num{font-size:11.5px;letter-spacing:.2em;color:var(--gold-deep);margin-bottom:14px;}
 .ep-reason-value{
   font-family:'Shippori Mincho',serif;font-size:clamp(30px,4vw,40px);
@@ -328,21 +334,63 @@
 .ep-fit-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--gold-light);border:1px solid var(--gold-light);margin-top:8px;}
 .ep-fit-card{background:var(--paper);padding:34px 30px;}
 .ep-fit-card.ep-good{background:var(--gold-pale);}
-.ep-fit-list li{font-size:14px;color:var(--ink-soft);line-height:2.1;padding-left:18px;position:relative;margin-bottom:4px;}
-.ep-fit-list li::before{content:"・";position:absolute;left:0;}
+.ep-fit-head{display:flex;align-items:center;gap:14px;margin-bottom:22px;}
+.ep-fit-head .ep-h3{margin:0;}
+.ep-fit-mark{
+  flex:none;width:34px;height:34px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  font-family:'Shippori Mincho',serif;font-size:16px;font-weight:700;
+}
+.ep-mark-no{background:#E7D9D3;color:#9C6248;}
+.ep-mark-yes{background:var(--gold-deep);color:#fff;}
+.ep-fit-list li{
+  font-size:14px;color:var(--ink-soft);line-height:1.9;
+  display:flex;gap:10px;margin-bottom:14px;
+}
+.ep-fit-list li:last-child{margin-bottom:0;}
+.ep-fit-icon{
+  flex:none;width:20px;height:20px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  font-size:11px;font-weight:700;margin-top:2px;
+}
+.ep-icon-no{background:#E7D9D3;color:#9C6248;}
+.ep-icon-yes{background:var(--gold-deep);color:#fff;}
 .ep-note.ep-right{margin-top:22px;}
 
 /* ======== 成分 ======== */
 .ep-spec{background:var(--ivory);}
-.ep-table{width:100%;border-collapse:collapse;font-size:14px;background:var(--paper);margin-top:6px;}
-.ep-table th,.ep-table td{border:1px solid var(--gold-light);padding:12px 16px;text-align:left;}
-.ep-table th{font-weight:500;background:var(--gold-pale);width:44%;}
-.ep-spec-detail{margin-top:26px;}
-.ep-spec-detail > div{padding:18px 0;border-bottom:1px solid var(--gold-light);}
-.ep-spec-detail dt{font-family:'Shippori Mincho',serif;font-size:13.5px;color:var(--gold-deep);letter-spacing:.1em;margin-bottom:8px;}
-.ep-spec-detail dd{font-size:13px;color:var(--ink-soft);line-height:2;}
+.ep-spec-stats{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:0;
+  background:var(--paper);border:1px solid var(--gold-light);margin-top:6px;
+}
+.ep-spec-stat{text-align:center;padding:26px 16px;border-left:1px solid var(--gold-light);}
+.ep-spec-stat:first-child{border-left:none;}
+.ep-spec-stat strong{
+  display:block;font-family:'Shippori Mincho',serif;font-size:clamp(18px,2.2vw,24px);
+  color:var(--green-deep);margin-bottom:8px;
+}
+.ep-spec-stat strong small{font-size:13px;font-weight:500;}
+.ep-spec-stat span{font-size:12px;color:var(--ink-mist);}
+.ep-spec-badges{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px;}
+.ep-spec-badge{
+  font-size:12.5px;letter-spacing:.04em;color:var(--green-deep);
+  background:var(--green-pale);border:1px solid var(--green-soft);
+  padding:8px 18px;
+}
+.ep-ingredients{margin-top:26px;border-top:1px solid var(--gold-light);}
+.ep-ingredients summary{
+  padding:18px 30px 18px 4px;cursor:pointer;list-style:none;position:relative;
+  font-size:13.5px;letter-spacing:.05em;color:var(--gold-deep);
+}
+.ep-ingredients summary::-webkit-details-marker{display:none;}
+.ep-ingredients summary::after{content:"＋";position:absolute;right:4px;top:18px;color:var(--gold-deep);}
+.ep-ingredients[open] summary::after{content:"−";}
+.ep-ingredients p{
+  font-size:12.5px;color:var(--ink-mist);line-height:2.1;
+  padding:0 4px 22px;
+}
 .ep-caution{
-  margin-top:26px;padding:22px 24px;background:var(--gold-pale);
+  margin-top:20px;padding:22px 24px;background:var(--gold-pale);
   font-size:13px;color:var(--ink-soft);line-height:2;
 }
 
@@ -363,7 +411,8 @@
   padding:5px 16px;white-space:nowrap;
 }
 .ep-offer-img{width:100%;height:170px;object-fit:contain;margin-bottom:20px;}
-.ep-offer-plan{font-family:'Shippori Mincho',serif;font-size:14px;letter-spacing:.2em;color:var(--gold-deep);margin-bottom:12px;}
+.ep-offer-name{font-size:12px;color:var(--ink-mist);letter-spacing:.03em;margin-bottom:4px;}
+.ep-offer-plan{font-family:'Shippori Mincho',serif;font-size:16px;letter-spacing:.1em;color:var(--gold-deep);margin-bottom:12px;}
 .ep-offer-price{font-family:'Shippori Mincho',serif;font-size:clamp(26px,3vw,34px);font-weight:700;line-height:1.3;}
 .ep-offer-price small{font-size:13px;font-weight:500;}
 .ep-offer-sub{font-size:12px;color:var(--ink-mist);margin:6px 0 20px;}
@@ -470,6 +519,9 @@
   .ep-trust-item{border-left:none;border-top:1px solid var(--gold-light);}
   .ep-trust-item:first-child{border-top:none;}
   .ep-fit-grid{grid-template-columns:1fr;}
+  .ep-spec-stats{grid-template-columns:1fr;}
+  .ep-spec-stat{border-left:none;border-top:1px solid var(--gold-light);}
+  .ep-spec-stat:first-child{border-top:none;}
   .ep-quick-grid{grid-template-columns:repeat(2,1fr);gap:20px;}
   .ep-quick-item{border-left:none;border-top:1px solid var(--gold-light);padding-top:16px;}
   .ep-quick-item:nth-child(1),.ep-quick-item:nth-child(2){border-top:none;}
@@ -644,18 +696,21 @@
       </div>
       <div class="ep-reason-grid">
         <div class="ep-reason-card ep-reveal">
+          <span class="ep-reason-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M12 2C9 7 5 11 5 15a7 7 0 0 0 14 0c0-4-4-8-7-13z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg></span>
           <p class="ep-reason-num">01 / CLEANSE</p>
           <p class="ep-reason-value">植物オイル<small>2種</small></p>
           <h3 class="ep-h3">肌の力を守りながら落とす。</h3>
           <p>米ぬか油・コーン油という、人の皮脂に近い植物オイルを厳選。石油系界面活性剤は使わず、うるおいを守りながら汚れだけをやさしくオフします。</p>
         </div>
         <div class="ep-reason-card ep-reveal">
+          <span class="ep-reason-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M4 20c8 0 14-6 14-16-9 0-15 6-15 16 3 0 5-1 7-3" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/></svg></span>
           <p class="ep-reason-num">02 / CARE</p>
           <p class="ep-reason-value">AHA<small>配合</small></p>
           <h3 class="ep-h3">角質も、やさしくケア。</h3>
           <p>古い角質による肌のくすみを、クレンジングと同時にケア。穏やかな設計なので、繊細な肌の方にも使いやすい処方です。</p>
         </div>
         <div class="ep-reason-card ep-reveal">
+          <span class="ep-reason-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3l1.6 4.4L18 9l-4.4 1.6L12 15l-1.6-4.4L6 9l4.4-1.6L12 3z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><path d="M18 15l.8 2.2L21 18l-2.2.8L18 21l-.8-2.2L15 18l2.2-.8L18 15z" stroke="currentColor" stroke-width="1.1" stroke-linejoin="round"/></svg></span>
           <p class="ep-reason-num">03 / SERUM</p>
           <p class="ep-reason-value">美容液成分<small>配合</small></p>
           <h3 class="ep-h3">洗うたびに、うるおいを。</h3>
@@ -796,19 +851,19 @@
       <div class="ep-sec-head ep-reveal"><div><p class="ep-eyebrow">HONESTLY</p><h2 class="ep-h2">正直に言うと、<br>向いていない方もいます。</h2></div></div>
       <div class="ep-fit-grid ep-reveal">
         <div class="ep-fit-card">
-          <h3 class="ep-h3">おすすめしない方</h3>
+          <div class="ep-fit-head"><span class="ep-fit-mark ep-mark-no">✕</span><h3 class="ep-h3">おすすめしない方</h3></div>
           <ul class="ep-fit-list">
-            <li>オイルフリーの軽い使い心地を求める方（モイストクレンジングがおすすめです）</li>
-            <li>とにかく時短で済ませたい方（なじませる工程があります）</li>
-            <li>オイル自体が肌に合わない方</li>
+            <li><span class="ep-fit-icon ep-icon-no">✕</span>オイルフリーの軽い使い心地を求める方（モイストクレンジングがおすすめです）</li>
+            <li><span class="ep-fit-icon ep-icon-no">✕</span>とにかく時短で済ませたい方（なじませる工程があります）</li>
+            <li><span class="ep-fit-icon ep-icon-no">✕</span>オイル自体が肌に合わない方</li>
           </ul>
         </div>
         <div class="ep-fit-card ep-good">
-          <h3 class="ep-h3">ぜひ試してほしい方</h3>
+          <div class="ep-fit-head"><span class="ep-fit-mark ep-mark-yes">◯</span><h3 class="ep-h3">ぜひ試してほしい方</h3></div>
           <ul class="ep-fit-list">
-            <li>しっかりメイクオフしたいけれど、肌へのやさしさも譲れない方</li>
-            <li>洗い上がりのつっぱりが気になっていた方</li>
-            <li>クレンジングしながら、うるおいケアもしたい方</li>
+            <li><span class="ep-fit-icon ep-icon-yes">◯</span>しっかりメイクオフしたいけれど、肌へのやさしさも譲れない方</li>
+            <li><span class="ep-fit-icon ep-icon-yes">◯</span>洗い上がりのつっぱりが気になっていた方</li>
+            <li><span class="ep-fit-icon ep-icon-yes">◯</span>クレンジングしながら、うるおいケアもしたい方</li>
           </ul>
         </div>
       </div>
@@ -820,20 +875,21 @@
   <div class="ep-sec ep-spec" id="spec">
     <div class="ep-container-narrow">
       <div class="ep-sec-head ep-reveal"><div><p class="ep-eyebrow">INGREDIENTS</p><h2 class="ep-h2">成分について。</h2></div><p>肌につけるものだからこそ、すべて開示します。</p></div>
-      <dl class="ep-spec-detail ep-reveal">
-        <div>
-          <dt>全成分</dt>
-          <dd>ラウリン酸ポリグリセリル-10、グリセリン、乳酸桿菌／セイヨウナシ果汁発酵液、アスペルギルス／(マンダリンオレンジ×スイートオレンジ果実／コメ／イチゴ果実)発酵液、グレープフルーツ果皮油、コメヌカ油、コレステロール、セラミドAP、セラミドEOP、セラミドNP、トウモロコシ胚芽油、トコトリエノール、トコフェロール、グリチルリチン酸2K、ヘマトコッカスプルビアリスエキス、ヒアルロン酸Na、アロエベラ葉エキス、エチルヘキシルグリセリン、カルボマー、キサンタンガム、クエン酸、クエン酸Na、乳酸、フィトスフィンゴシン、トリ（カプリル酸／カプリン酸）グリセリル、ラウロイルラクチレートNa、異性化糖、水酸化K、水添レシチン、(アクリロイルジメチルタウリンアンモニウム/VP)コポリマー、1,2-ヘキサンジオール、BG、t-ブタノール、フェノキシエタノール</dd>
-        </div>
-        <div>
-          <dt>内容量・製造</dt>
-          <dd>250mL（使用目安：約1〜1.5ヶ月　※使用量により個人差があります）／原産国：日本</dd>
-        </div>
-        <div>
-          <dt>無添加</dt>
-          <dd>無鉱物油・パラベンフリー・ノンアルコール・タール系色素不使用</dd>
-        </div>
-      </dl>
+      <div class="ep-spec-stats ep-reveal">
+        <div class="ep-spec-stat"><strong>250mL</strong><span>たっぷり使える容量</span></div>
+        <div class="ep-spec-stat"><strong>約1〜1.5<small>ヶ月</small></strong><span>使用目安（個人差があります）</span></div>
+        <div class="ep-spec-stat"><strong>日本製</strong><span>原産国</span></div>
+      </div>
+      <div class="ep-spec-badges ep-reveal">
+        <span class="ep-spec-badge">無鉱物油</span>
+        <span class="ep-spec-badge">パラベンフリー</span>
+        <span class="ep-spec-badge">ノンアルコール</span>
+        <span class="ep-spec-badge">タール系色素不使用</span>
+      </div>
+      <details class="ep-ingredients ep-reveal">
+        <summary>全成分を見る</summary>
+        <p>ラウリン酸ポリグリセリル-10、グリセリン、乳酸桿菌／セイヨウナシ果汁発酵液、アスペルギルス／(マンダリンオレンジ×スイートオレンジ果実／コメ／イチゴ果実)発酵液、グレープフルーツ果皮油、コメヌカ油、コレステロール、セラミドAP、セラミドEOP、セラミドNP、トウモロコシ胚芽油、トコトリエノール、トコフェロール、グリチルリチン酸2K、ヘマトコッカスプルビアリスエキス、ヒアルロン酸Na、アロエベラ葉エキス、エチルヘキシルグリセリン、カルボマー、キサンタンガム、クエン酸、クエン酸Na、乳酸、フィトスフィンゴシン、トリ（カプリル酸／カプリン酸）グリセリル、ラウロイルラクチレートNa、異性化糖、水酸化K、水添レシチン、(アクリロイルジメチルタウリンアンモニウム/VP)コポリマー、1,2-ヘキサンジオール、BG、t-ブタノール、フェノキシエタノール</p>
+      </details>
       <div class="ep-caution ep-reveal">
         <strong>ご使用の際のご注意</strong><br>
         お肌に異常が生じていないかよく注意して使用してください。<br>
@@ -852,6 +908,7 @@
         <div class="ep-offer-card ep-trial">
           <span class="ep-ribbon">初めての方に</span>
           <img class="ep-offer-img" src="images/product-trial.jpg" alt="エポラーシェトライアルセット（9点入り）" width="1000" height="1000" loading="lazy" onerror="this.style.display='none'">
+          <p class="ep-offer-name">モイストクレンジングプラスほか8点</p>
           <p class="ep-offer-plan">エポラーシェ<br>トライアルセット</p>
           <p class="ep-offer-price">990<small>円（税込）</small></p>
           <p class="ep-offer-sub">9点セット・送料無料／お一人様1点まで</p>
@@ -864,7 +921,8 @@
           <p class="ep-micro">※ネコポス便（ポスト投函）のため、お届け日時の指定はできません。</p>
         </div>
         <div class="ep-offer-card">
-          <img class="ep-offer-img" src="images/product-mini.jpg" alt="モイストクレンジングプラス 80mL" width="1000" height="1000" loading="lazy" onerror="this.style.display='none'">
+          <img class="ep-offer-img" src="images/product-80ml.jpg" alt="モイストクレンジングプラス 80mL" width="1000" height="1000" loading="lazy" onerror="this.style.display='none'">
+          <p class="ep-offer-name">モイストクレンジングプラス</p>
           <p class="ep-offer-plan">80mL</p>
           <p class="ep-offer-price">1,980<small>円（税込）</small></p>
           <p class="ep-offer-sub">この商品だけをじっくり試したい方に</p>
@@ -875,7 +933,8 @@
           <a class="ep-btn ep-btn-primary" href="#form">80mLを注文する</a>
         </div>
         <div class="ep-offer-card">
-          <img class="ep-offer-img" src="images/product-main.jpg" alt="モイストクレンジングプラス たっぷり250mL" width="1000" height="1000" loading="lazy" onerror="this.style.display='none'">
+          <img class="ep-offer-img" src="images/product-250ml.jpg" alt="モイストクレンジングプラス たっぷり250mL" width="1000" height="1000" loading="lazy" onerror="this.style.display='none'">
+          <p class="ep-offer-name">モイストクレンジングプラス</p>
           <p class="ep-offer-plan">たっぷり250mL</p>
           <p class="ep-offer-price">5,500<small>円（税込）</small></p>
           <p class="ep-offer-sub">約1〜1.5ヶ月分／1日あたり約183円</p>
@@ -1018,7 +1077,7 @@
   "@context": "https://schema.org",
   "@type": "Product",
   "name": "モイストクレンジングプラス",
-  "image": "images/product-main.jpg",
+  "image": "images/product-250ml.jpg",
   "description": "米ぬか油・コーン油の植物オイルとAHAでやさしくメイクオフしながら、美容液成分でうるおいを届ける濃密クレンジングジェル。内容量250mL（約1〜1.5ヶ月分）。",
   "brand": { "@type": "Brand", "name": "エポラーシェ" },
   "offers": {
