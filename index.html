@@ -1,109 +1,1279 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>モイストクレンジングプラス｜エポラーシェ</title>
-  <meta name="description" content="植物オイルと美容液成分を配合した濃密ジェルクレンジング。落とす時間を、肌をいたわる時間へ。">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="モイストクレンジングプラス｜エポラーシェ">
-  <meta property="og:description" content="きちんと落として、うるおいは逃さない。">
-  <meta property="og:image" content="images/ogp.jpg">
-  <link rel="stylesheet" href="style.css">
+<!-- ============================================================
+  モイストクレンジングプラスLP / head 編集欄用
+  ※ DOCTYPE・html・head・body タグは含めていません
+============================================================ -->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>モイストクレンジングプラス｜植物オイル×美容液成分の濃密ジェル｜エポラーシェ公式</title>
+<meta name="description" content="洗いあがりは、まるでスキンケアのあとのしっとり感。米ぬか油・コーン油の植物オイルとAHAでやさしくメイクオフしながら、美容液成分でうるおいを届ける濃密クレンジングジェル。250mL 5,500円。トライアルセット990円・送料無料あり。">
+
+<link rel="canonical" href="https://example.com/preview">
+
+<!-- OGP -->
+<meta property="og:type" content="product">
+<meta property="og:site_name" content="エポラーシェ">
+<meta property="og:title" content="モイストクレンジングプラス｜植物オイル×美容液成分の濃密ジェル｜エポラーシェ公式">
+<meta property="og:description" content="洗いあがりは、まるでスキンケアのあとのしっとり感。植物オイルとAHAでやさしくメイクオフしながら、うるおいを届けるクレンジングジェル。">
+<meta property="og:image" content="images/ogp.webp">
+<meta property="og:url" content="https://example.com/preview">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="モイストクレンジングプラス｜植物オイル×美容液成分の濃密ジェル｜エポラーシェ公式">
+<meta name="twitter:description" content="洗いあがりは、まるでスキンケアのあとのしっとり感。植物オイルとAHAでやさしくメイクオフしながら、うるおいを届けるクレンジングジェル。">
+<meta name="twitter:image" content="images/ogp.webp">
+
+<!-- Web フォント -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;600;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap">
+
+<!-- LP用スタイル -->
+<style>
+/* ============================================================
+   モイストクレンジングプラスLP / style.css
+   全セレクタを .ep-guide-page 配下に限定（ecforce要件）
+============================================================ */
+
+.ep-guide-page{
+  --ivory:#F5F0E8;
+  --paper:#FFFDF9;
+  --ink:#332B22;
+  --ink-soft:#6B5F4C;
+  --ink-mist:#8C8067;
+  --gold:#C0A268;
+  --gold-light:#E8DCC2;
+  --gold-pale:#F2EBDC;
+  --gold-deep:#9C7D47;
+  --green:#2E4A3A;
+  --green-deep:#20342A;
+  --green-soft:#4F6B58;
+  --green-pale:#E4EBE4;
+
+  font-family:'Zen Kaku Gothic New',sans-serif;
+  background:var(--ivory);
+  color:var(--ink);
+  line-height:2;
+  font-size:16px;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+.ep-guide-page *{box-sizing:border-box;}
+.ep-guide-page img{max-width:100%;display:block;}
+:where(.ep-guide-page) a{color:inherit;}
+.ep-guide-page ul,.ep-guide-page dl{list-style:none;margin:0;padding:0;}
+
+.ep-serif{font-family:'Shippori Mincho',serif;}
+.ep-container{max-width:1100px;margin:0 auto;padding:0 24px;}
+.ep-container-narrow{max-width:860px;margin:0 auto;padding:0 24px;}
+.ep-sec{padding:92px 0;}
+.ep-center{text-align:center;}
+.ep-right{text-align:right;}
+
+.ep-eyebrow{
+  font-size:12px;letter-spacing:.36em;color:var(--gold-deep);
+  margin-bottom:16px;text-transform:uppercase;
+}
+.ep-h2{
+  font-family:'Shippori Mincho',serif;
+  font-size:clamp(24px,3.6vw,36px);
+  font-weight:600;letter-spacing:.07em;line-height:1.75;
+  margin:0 0 18px;
+}
+.ep-h3{
+  font-family:'Shippori Mincho',serif;
+  font-size:17px;font-weight:600;letter-spacing:.04em;line-height:1.7;
+  margin:0 0 10px;
+}
+.ep-sec-head{
+  display:flex;justify-content:space-between;align-items:flex-end;gap:40px;
+  flex-wrap:wrap;margin-bottom:48px;
+}
+.ep-sec-head p{color:var(--ink-soft);max-width:30em;font-size:14.5px;line-height:2;}
+.ep-note{font-size:12.5px;color:var(--ink-mist);}
+
+.ep-btn{
+  display:inline-block;font-family:'Shippori Mincho',serif;
+  font-size:15.5px;letter-spacing:.16em;padding:17px 46px;
+  text-decoration:none;transition:all .25s ease;text-align:center;
+}
+.ep-btn-primary{background:var(--green-deep);color:#fff;}
+.ep-btn-primary:hover{background:var(--gold-deep);}
+.ep-btn-line{background:transparent;border:1px solid var(--gold-deep);color:var(--ink);}
+.ep-btn-line:hover{background:var(--gold-deep);color:#fff;}
+.ep-btn:focus-visible{outline:3px solid var(--gold);outline-offset:2px;}
+
+/* ======== ヘッダー ======== */
+.ep-header{
+  position:fixed;top:0;left:0;right:0;z-index:100;
+  padding:14px 0;background:rgba(32,52,42,.0);
+  transition:background .3s ease;
+}
+.ep-header.is-scrolled{background:rgba(32,52,42,.94);}
+.ep-header-inner{
+  max-width:1100px;margin:0 auto;padding:0 24px;
+  display:flex;align-items:center;justify-content:space-between;
+}
+.ep-header-logo img{height:34px;width:auto;}
+.ep-burger{
+  width:40px;height:32px;background:none;border:none;cursor:pointer;
+  display:flex;flex-direction:column;justify-content:space-between;padding:4px 2px;
+}
+.ep-burger span{display:block;height:1.5px;width:100%;background:#fff;}
+
+/* ======== ドロワー ======== */
+.ep-drawer-overlay{
+  position:fixed;inset:0;background:rgba(20,28,22,.5);z-index:150;
+  opacity:0;visibility:hidden;transition:opacity .3s ease;
+}
+.ep-drawer-overlay.is-open{opacity:1;visibility:visible;}
+.ep-drawer{
+  position:fixed;top:0;right:0;bottom:0;width:min(320px,84vw);
+  background:var(--green-deep);color:var(--ivory);z-index:160;
+  padding:70px 34px 34px;transform:translateX(100%);transition:transform .32s ease;
+  overflow-y:auto;
+}
+.ep-drawer.is-open{transform:translateX(0);}
+.ep-drawer-close{
+  position:absolute;top:20px;right:24px;background:none;border:none;
+  color:#fff;font-size:26px;cursor:pointer;line-height:1;
+}
+.ep-drawer-nav li{border-bottom:1px solid rgba(255,255,255,.14);}
+.ep-drawer-nav a{
+  display:block;padding:16px 2px;font-size:14.5px;letter-spacing:.06em;
+  text-decoration:none;color:var(--ivory);
+}
+.ep-drawer-cta{color:var(--gold-light) !important;font-family:'Shippori Mincho',serif;}
+.ep-drawer-tel{margin-top:30px;font-size:12.5px;color:#D8E0DA;line-height:1.9;}
+.ep-drawer-tel a{font-family:'Shippori Mincho',serif;font-size:19px;color:#fff;display:block;margin:6px 0;}
+
+/* ======== ヒーロー ======== */
+.ep-hero{position:relative;min-height:92vh;display:flex;align-items:center;background:var(--green-deep);overflow:hidden;}
+.ep-hero-media{position:absolute;inset:0;}
+.ep-hero-media img{width:100%;height:100%;object-fit:cover;opacity:.94;}
+.ep-hero::after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(100deg,rgba(20,30,24,.72) 0%,rgba(20,30,24,.42) 44%,rgba(20,30,24,.06) 100%);
+}
+.ep-hero-inner{position:relative;z-index:2;padding:132px 24px 96px;color:var(--ivory);width:100%;}
+.ep-hero-brand{font-size:12px;letter-spacing:.44em;color:var(--gold-light);margin-bottom:26px;}
+.ep-hero-title{
+  font-family:'Shippori Mincho',serif;
+  font-size:clamp(28px,4.8vw,48px);font-weight:600;line-height:1.7;letter-spacing:.06em;
+  margin-bottom:26px;
+}
+.ep-l{display:inline-block;}
+.ep-hero-title em{font-style:normal;color:var(--gold-light);}
+.ep-hero-lead{font-size:clamp(14px,1.5vw,16px);color:#EBE6DA;max-width:32em;line-height:2.1;margin-bottom:32px;}
+.ep-hero-badges{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:38px;}
+.ep-badge{
+  font-size:12px;letter-spacing:.06em;padding:7px 16px;
+  border:1px solid rgba(232,220,194,.5);color:var(--gold-light);
+}
+.ep-hero-actions{display:flex;flex-direction:column;align-items:flex-start;gap:16px;margin-bottom:26px;}
+.ep-hero-textlink{font-size:13.5px;letter-spacing:.04em;text-decoration:underline;color:#EDE7D8;}
+.ep-hero-proof{font-size:13px;color:var(--gold-light);letter-spacing:.03em;}
+
+/* ======== クイック値バー ======== */
+.ep-quick{background:var(--paper);border-bottom:1px solid var(--gold-light);}
+.ep-quick-grid{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:0;
+  padding:30px 24px;
+}
+.ep-quick-item{
+  text-align:center;padding:0 14px;border-left:1px solid var(--gold-light);
+}
+.ep-quick-item:first-child{border-left:none;}
+.ep-quick-item strong{
+  display:block;font-family:'Shippori Mincho',serif;font-size:clamp(18px,2vw,22px);
+  color:var(--green-deep);margin-bottom:6px;
+}
+.ep-quick-item span{font-size:12px;color:var(--ink-soft);letter-spacing:.02em;}
+
+/* ======== 共感 ======== */
+.ep-empathy{background:var(--paper);}
+.ep-empathy-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;}
+.ep-checklist{margin:24px 0 30px;}
+.ep-check{
+  font-family:'Shippori Mincho',serif;font-size:16.5px;line-height:1.85;
+  padding:15px 0 15px 28px;position:relative;border-bottom:1px solid var(--gold-light);
+  color:var(--ink-soft);
+}
+.ep-check::before{content:"—";position:absolute;left:0;color:var(--gold-deep);}
+.ep-empathy-close{font-family:'Shippori Mincho',serif;font-size:18px;line-height:2;color:var(--ink);}
+.ep-empathy-image{position:relative;}
+.ep-empathy-image img{width:100%;height:480px;object-fit:cover;}
+.ep-empathy-image::after{
+  content:"";position:absolute;top:16px;left:16px;right:-16px;bottom:-16px;
+  border:1px solid var(--gold);z-index:-1;
+}
+
+/* ======== 4コマ漫画 ======== */
+.ep-manga{background:var(--ivory);}
+.ep-manga-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;}
+.ep-manga-item{margin:0;}
+.ep-manga-frame{
+  position:relative;width:100%;padding-top:100%;overflow:hidden;
+  border:1px solid var(--gold-light);background:var(--paper);
+}
+.ep-manga-frame img{
+  position:absolute;top:0;left:0;width:100%;height:100%;
+  object-fit:cover;border:none;
+}
+.ep-manga-item figcaption{font-size:12.5px;color:var(--ink-soft);line-height:1.85;margin-top:12px;}
+
+/* ======== 選ばれる理由 ======== */
+.ep-reasons{background:var(--paper);}
+.ep-reason-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:44px;}
+.ep-reason-card{border-top:2px solid var(--gold-deep);padding-top:22px;}
+.ep-reason-icon{
+  display:flex;align-items:center;justify-content:center;
+  width:44px;height:44px;border-radius:50%;background:var(--green-pale);
+  color:var(--green-deep);margin-bottom:16px;
+}
+.ep-reason-icon svg{width:22px;height:22px;}
+.ep-reason-num{font-size:11.5px;letter-spacing:.2em;color:var(--gold-deep);margin-bottom:14px;}
+.ep-reason-value{
+  font-family:'Shippori Mincho',serif;font-size:clamp(30px,4vw,40px);
+  font-weight:700;color:var(--green-deep);line-height:1.2;margin-bottom:14px;
+}
+.ep-reason-value small{font-size:16px;font-weight:600;margin-left:2px;}
+.ep-reason-card p{font-size:14px;color:var(--ink-soft);line-height:2;}
+
+/* ======== 独自性 / 逆説 ======== */
+.ep-compare{background:var(--green-deep);color:var(--ivory);}
+.ep-compare .ep-eyebrow{color:var(--gold-light);}
+.ep-compare .ep-h2{color:#fff;}
+.ep-compare .ep-sec-head p{color:#D8E0DA;}
+.ep-compare-grid{
+  display:grid;grid-template-columns:1fr 1fr;gap:1px;
+  background:var(--gold-deep);border:1px solid var(--gold-deep);margin-top:8px;
+}
+.ep-compare-card{background:var(--green-deep);padding:38px 32px;}
+.ep-compare-card.ep-featured{background:#324F3F;}
+.ep-compare-label{font-size:11px;letter-spacing:.2em;color:#C9D6CC;margin-bottom:8px;}
+.ep-compare-card.ep-featured .ep-compare-label{color:var(--gold-light);}
+.ep-compare-card .ep-h3{color:#fff;}
+.ep-compare-card p{font-size:14px;color:#DCE3DA;line-height:2;}
+.ep-flow{display:flex;gap:6px;align-items:center;margin:18px 0 20px;height:20px;}
+.ep-dot{width:9px;height:9px;border-radius:50%;background:#8FA79A;opacity:.8;}
+.ep-featured .ep-dot{width:12px;height:12px;background:var(--gold-light);opacity:1;}
+.ep-link{width:9px;height:2px;background:var(--gold);}
+.ep-compare-note{
+  font-family:'Shippori Mincho',serif;font-size:15.5px;line-height:2;
+  color:#E7EDE4;margin-top:30px;max-width:36em;
+}
+.ep-proof{margin-top:36px;}
+.ep-proof img{width:100%;height:340px;object-fit:cover;}
+.ep-proof figcaption{font-size:12.5px;color:#C9D6CC;margin-top:12px;line-height:1.85;}
+
+/* ======== 開発ストーリー ======== */
+.ep-story{background:var(--paper);}
+.ep-story-grid{display:grid;grid-template-columns:340px 1fr;gap:64px;align-items:start;}
+.ep-story-photo{position:sticky;top:60px;}
+.ep-story-photo img{width:100%;height:440px;object-fit:cover;}
+.ep-story-photo figcaption{font-size:12px;letter-spacing:.2em;color:var(--gold-deep);margin-top:12px;text-align:center;}
+.ep-timeline{margin:26px 0 30px;}
+.ep-timeline-item{
+  display:grid;grid-template-columns:76px 1fr;gap:22px;
+  padding:20px 0;border-bottom:1px solid var(--gold-light);
+}
+.ep-timeline-item:first-child{border-top:1px solid var(--gold-light);}
+.ep-timeline-year{font-family:'Shippori Mincho',serif;font-size:14px;color:var(--gold-deep);letter-spacing:.06em;padding-top:2px;}
+.ep-timeline-item p{font-size:14px;color:var(--ink-soft);line-height:1.95;}
+.ep-story-quote{
+  font-family:'Shippori Mincho',serif;font-size:16.5px;line-height:2;color:var(--ink);
+  border-left:2px solid var(--gold);padding-left:22px;margin-top:8px;
+}
+
+/* ======== 使い方 ======== */
+.ep-howto{background:var(--ivory);}
+.ep-howto-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;}
+.ep-how-card{background:var(--paper);border:1px solid var(--gold-light);}
+.ep-how-card img{width:100%;height:200px;object-fit:cover;}
+.ep-how-body{padding:22px 22px 26px;}
+.ep-kicker{font-family:'Shippori Mincho',serif;font-size:11.5px;letter-spacing:.3em;color:var(--gold-deep);margin-bottom:10px;}
+.ep-how-body p{font-size:13.5px;color:var(--ink-soft);line-height:1.95;}
+
+/* ======== セクションCTA（section-cta） ======== */
+.ep-section-cta{margin-top:34px;font-size:13.5px;}
+.ep-section-cta a{
+  color:var(--gold-deep);text-decoration:none;
+  border-bottom:1px solid var(--gold);padding-bottom:2px;
+  letter-spacing:.03em;
+}
+.ep-section-cta a:hover{color:var(--ink);border-color:var(--ink);}
+.ep-compare .ep-section-cta a{color:var(--gold-light);border-color:var(--gold);}
+.ep-compare .ep-section-cta a:hover{color:#fff;}
+
+/* ======== レビューグラフ ======== */
+.ep-review-graph{
+  max-width:520px;margin:0 auto 48px;text-align:center;
+  padding:28px 30px;background:var(--ivory);border:1px solid var(--gold-light);
+}
+.ep-review-graph-num{
+  font-family:'Shippori Mincho',serif;color:var(--green-deep);
+  margin-bottom:14px;line-height:1;
+}
+.ep-review-graph-num strong{font-size:clamp(34px,4.5vw,46px);font-weight:700;}
+.ep-review-graph-num span{font-size:18px;margin-left:2px;}
+.ep-review-graph-bar{
+  height:10px;background:var(--gold-pale);border:1px solid var(--gold-light);
+  overflow:hidden;margin-bottom:14px;
+}
+.ep-review-graph-fill{height:100%;background:var(--gold-deep);}
+.ep-review-graph-label{font-size:11.5px;color:var(--ink-mist);line-height:1.8;}
+
+/* ======== お客様の声 ======== */
+.ep-voices{background:var(--paper);}
+.ep-voice-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-bottom:8px;}
+.ep-voice{background:var(--ivory);padding:30px 26px;border-top:2px solid var(--gold);display:flex;flex-direction:column;}
+.ep-stars{color:var(--gold-deep);letter-spacing:2px;font-size:13px;margin-bottom:10px;}
+.ep-voice p{font-size:14px;color:var(--ink-soft);line-height:2;flex:1;}
+.ep-voice-meta{font-size:12px;color:var(--ink-mist);margin-top:18px;letter-spacing:.03em;}
+.ep-trust{
+  display:flex;justify-content:center;margin-top:52px;
+  border-top:1px solid var(--gold-light);border-bottom:1px solid var(--gold-light);
+}
+.ep-trust-item{flex:1;text-align:center;padding:28px 16px;border-left:1px solid var(--gold-light);}
+.ep-trust-item:first-child{border-left:none;}
+.ep-trust-item strong{display:block;font-family:'Shippori Mincho',serif;font-size:16px;letter-spacing:.08em;margin-bottom:6px;}
+.ep-trust-item span{font-size:12px;color:var(--ink-mist);line-height:1.8;}
+.ep-midcta{text-align:center;margin-top:52px;}
+.ep-microcopy{font-size:12.5px;color:var(--ink-mist);margin-top:14px;}
+
+/* ======== コスパ ======== */
+.ep-cost{background:var(--green-deep);color:var(--ivory);text-align:center;}
+.ep-cost .ep-eyebrow{color:var(--gold-light);}
+.ep-cost .ep-h2{color:#fff;}
+.ep-cost-value{
+  font-family:'Shippori Mincho',serif;font-size:clamp(40px,6vw,64px);
+  color:var(--gold-light);font-weight:700;line-height:1.3;margin:10px 0 16px;
+}
+.ep-cost-value small{font-size:18px;font-weight:600;}
+.ep-cost p{color:#DCE3DA;max-width:34em;margin:0 auto;font-size:14.5px;}
+
+/* ======== 向き不向き ======== */
+.ep-fit{background:var(--paper);}
+.ep-fit-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--gold-light);border:1px solid var(--gold-light);margin-top:8px;}
+.ep-fit-card{background:var(--paper);padding:34px 30px;}
+.ep-fit-card.ep-good{background:var(--gold-pale);}
+.ep-fit-head{display:flex;align-items:center;gap:14px;margin-bottom:22px;}
+.ep-fit-head .ep-h3{margin:0;}
+.ep-fit-mark{
+  flex:none;width:34px;height:34px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  font-family:'Shippori Mincho',serif;font-size:16px;font-weight:700;
+}
+.ep-mark-no{background:#E7D9D3;color:#9C6248;}
+.ep-mark-yes{background:var(--gold-deep);color:#fff;}
+.ep-fit-list li{
+  font-size:14px;color:var(--ink-soft);line-height:1.9;
+  display:flex;gap:10px;margin-bottom:14px;
+}
+.ep-fit-list li:last-child{margin-bottom:0;}
+.ep-fit-icon{
+  flex:none;width:20px;height:20px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  font-size:11px;font-weight:700;margin-top:2px;
+}
+.ep-icon-no{background:#E7D9D3;color:#9C6248;}
+.ep-icon-yes{background:var(--gold-deep);color:#fff;}
+.ep-note.ep-right{margin-top:22px;}
+
+/* ======== 成分 ======== */
+.ep-spec{background:var(--ivory);}
+.ep-spec-stats{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:0;
+  background:var(--paper);border:1px solid var(--gold-light);margin-top:6px;
+}
+.ep-spec-stat{text-align:center;padding:26px 16px;border-left:1px solid var(--gold-light);}
+.ep-spec-stat:first-child{border-left:none;}
+.ep-spec-stat strong{
+  display:block;font-family:'Shippori Mincho',serif;font-size:clamp(18px,2.2vw,24px);
+  color:var(--green-deep);margin-bottom:8px;
+}
+.ep-spec-stat strong small{font-size:13px;font-weight:500;}
+.ep-spec-stat span{font-size:12px;color:var(--ink-mist);}
+.ep-spec-badges{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px;}
+.ep-spec-badge{
+  font-size:12.5px;letter-spacing:.04em;color:var(--green-deep);
+  background:var(--green-pale);border:1px solid var(--green-soft);
+  padding:8px 18px;
+}
+.ep-ingredients{margin-top:26px;border-top:1px solid var(--gold-light);}
+.ep-ingredients summary{
+  padding:18px 30px 18px 4px;cursor:pointer;list-style:none;position:relative;
+  font-size:13.5px;letter-spacing:.05em;color:var(--gold-deep);
+}
+.ep-ingredients summary::-webkit-details-marker{display:none;}
+.ep-ingredients summary::after{content:"＋";position:absolute;right:4px;top:18px;color:var(--gold-deep);}
+.ep-ingredients[open] summary::after{content:"−";}
+.ep-ingredients p{
+  font-size:12.5px;color:var(--ink-mist);line-height:2.1;
+  padding:0 4px 22px;
+}
+.ep-caution{
+  margin-top:20px;padding:22px 24px;background:var(--gold-pale);
+  font-size:13px;color:var(--ink-soft);line-height:2;
+}
+
+/* ======== 商品ラインナップ ======== */
+.ep-offer{background:var(--paper);}
+.ep-offer-lead{text-align:center;color:var(--ink-soft);font-size:14.5px;margin-bottom:40px;}
+.ep-offer-grid{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:24px;margin-bottom:44px;
+}
+.ep-offer-card{
+  background:var(--ivory);border:1px solid var(--gold-light);padding:34px 26px;
+  text-align:center;position:relative;display:flex;flex-direction:column;
+}
+.ep-offer-card.ep-trial{border:1px solid var(--gold-deep);}
+.ep-ribbon{
+  position:absolute;top:-13px;left:50%;transform:translateX(-50%);
+  background:var(--gold-deep);color:#fff;font-size:11.5px;letter-spacing:.14em;
+  padding:5px 16px;white-space:nowrap;
+}
+.ep-offer-img{width:100%;height:170px;object-fit:contain;margin-bottom:20px;}
+.ep-offer-name{font-size:12px;color:var(--ink-mist);letter-spacing:.03em;margin-bottom:4px;}
+.ep-offer-plan{font-family:'Shippori Mincho',serif;font-size:16px;letter-spacing:.1em;color:var(--gold-deep);margin-bottom:12px;}
+.ep-offer-price{font-family:'Shippori Mincho',serif;font-size:clamp(26px,3vw,34px);font-weight:700;line-height:1.3;}
+.ep-offer-price small{font-size:13px;font-weight:500;}
+.ep-offer-sub{font-size:12px;color:var(--ink-mist);margin:6px 0 20px;}
+.ep-offer-list{font-size:13px;color:var(--ink-soft);line-height:2;margin-bottom:22px;text-align:left;padding:0 4px;flex:1;}
+.ep-offer-list li{padding-left:16px;position:relative;}
+.ep-offer-list li::before{content:"・";position:absolute;left:0;}
+.ep-micro{font-size:11.5px;color:var(--ink-mist);margin-top:12px;}
+.ep-teiki{max-width:640px;margin:0 auto;background:var(--green-pale);padding:28px 30px;font-size:14px;color:var(--ink-soft);line-height:2.05;}
+.ep-teiki .ep-h3{color:var(--green-deep);}
+.ep-teiki a{display:inline-block;margin-top:12px;font-size:13.5px;color:var(--gold-deep);text-decoration:none;border-bottom:1px solid var(--gold);padding-bottom:2px;}
+.ep-teiki a:hover{color:var(--ink);}
+.ep-tel{margin-top:44px;text-align:center;font-size:13.5px;color:var(--ink-soft);}
+.ep-tel a{font-family:'Shippori Mincho',serif;font-size:26px;letter-spacing:.05em;color:var(--ink);display:block;margin:8px 0 4px;text-decoration:none;}
+
+/* ======== フォーム導入見出し ======== */
+.ep-formlead{background:var(--green-deep);color:var(--ivory);}
+.ep-formlead .ep-eyebrow{color:var(--gold-light);}
+.ep-formlead .ep-h2{color:#fff;}
+.ep-formlead-text{color:#DCE3DA;font-size:14px;}
+
+/* ======== Q&A ======== */
+.ep-faq{background:var(--paper);}
+.ep-qa{border-bottom:1px solid var(--gold-light);}
+.ep-qa:first-of-type{border-top:1px solid var(--gold-light);}
+.ep-qa summary{
+  font-family:'Shippori Mincho',serif;font-size:15.5px;padding:22px 36px 22px 40px;
+  cursor:pointer;position:relative;letter-spacing:.03em;list-style:none;
+}
+.ep-qa summary::-webkit-details-marker{display:none;}
+.ep-qa summary::before{content:"Q";position:absolute;left:2px;top:22px;font-family:'Shippori Mincho',serif;color:var(--gold-deep);font-weight:700;}
+.ep-qa summary::after{content:"＋";position:absolute;right:6px;top:22px;color:var(--gold-deep);transition:transform .25s ease;}
+.ep-qa[open] summary::after{content:"−";}
+.ep-qa-a{padding:0 36px 24px 40px;font-size:13.5px;color:var(--ink-soft);line-height:2;position:relative;}
+.ep-qa-a::before{content:"A";position:absolute;left:2px;top:0;font-family:'Shippori Mincho',serif;color:var(--gold);font-weight:700;font-size:15px;}
+
+/* ======== 最終メッセージ ======== */
+.ep-final{position:relative;background:var(--green-deep);color:var(--ivory);text-align:center;overflow:hidden;}
+.ep-final-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.48;}
+.ep-final > .ep-container-narrow{position:relative;z-index:2;padding-top:96px;padding-bottom:96px;}
+.ep-final-msg{
+  font-family:'Shippori Mincho',serif;font-size:clamp(21px,3.2vw,32px);
+  line-height:2;letter-spacing:.08em;margin-bottom:38px;
+  text-shadow:0 1px 14px rgba(20,30,24,.6);
+}
+
+/* ======== 直営店案内 ======== */
+.ep-shop{background:var(--paper);}
+.ep-shop-text{color:var(--ink-soft);max-width:34em;margin:0 auto 30px;font-size:14px;}
+
+/* ======== フッター ======== */
+.ep-footer{max-width:1100px;margin:0 auto;padding:60px 24px 40px;text-align:center;}
+.ep-footer-logo{margin:0 auto 18px;}
+.ep-footer-text{font-size:12.5px;color:var(--ink-soft);line-height:2;}
+.ep-footer-text a{color:var(--gold-deep);}
+
+/* ======== 追従CTA（スマホ） ======== */
+.ep-sticky{
+  position:fixed;left:0;right:0;bottom:0;z-index:90;
+  background:var(--green-deep);
+  transform:translateY(100%);transition:transform .3s ease;
+}
+.ep-sticky.show{transform:translateY(0);}
+.ep-sticky a{
+  display:block;text-align:center;padding:16px 12px;color:#fff;
+  font-family:'Shippori Mincho',serif;font-size:14.5px;letter-spacing:.05em;text-decoration:none;
+}
+
+/* ======== トップへ戻る ======== */
+.ep-totop{
+  position:fixed;right:18px;bottom:78px;z-index:80;
+  width:42px;height:42px;background:rgba(46,74,58,.86);color:#fff;border:none;
+  cursor:pointer;font-size:13px;opacity:0;visibility:hidden;transition:opacity .3s ease;
+}
+.ep-totop.show{opacity:1;visibility:visible;}
+
+/* ======== スクロールリビール ======== */
+.ep-reveal{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease;}
+.ep-reveal.on{opacity:1;transform:translateY(0);}
+@media (prefers-reduced-motion:reduce){
+  .ep-reveal{opacity:1;transform:none;transition:none;}
+}
+
+/* ======== キャンペーン差し込み枠 ======== */
+.ep-campaign{background:var(--green-deep);color:var(--ivory);padding:20px 0;text-align:center;font-size:13.5px;}
+
+/* ============================================================
+   レスポンシブ
+============================================================ */
+@media (max-width:1024px){
+  .ep-story-grid{grid-template-columns:1fr;}
+  .ep-story-photo{position:static;}
+  .ep-story-photo img{height:340px;}
+}
+@media (max-width:768px){
+  .ep-sec{padding:64px 0;}
+  .ep-empathy-grid{grid-template-columns:1fr;gap:32px;}
+  .ep-empathy-image img{height:320px;}
+  .ep-manga-grid{grid-template-columns:repeat(2,1fr);gap:14px;}
+  .ep-reason-grid{grid-template-columns:1fr;gap:34px;}
+  .ep-compare-grid{grid-template-columns:1fr;}
+  .ep-howto-grid{grid-template-columns:1fr;}
+  .ep-voice-grid{grid-template-columns:1fr;}
+  .ep-trust{flex-direction:column;}
+  .ep-trust-item{border-left:none;border-top:1px solid var(--gold-light);}
+  .ep-trust-item:first-child{border-top:none;}
+  .ep-fit-grid{grid-template-columns:1fr;}
+  .ep-spec-stats{grid-template-columns:1fr;}
+  .ep-spec-stat{border-left:none;border-top:1px solid var(--gold-light);}
+  .ep-spec-stat:first-child{border-top:none;}
+  .ep-quick-grid{grid-template-columns:repeat(2,1fr);gap:20px;}
+  .ep-quick-item{border-left:none;border-top:1px solid var(--gold-light);padding-top:16px;}
+  .ep-quick-item:nth-child(1),.ep-quick-item:nth-child(2){border-top:none;}
+  .ep-offer-grid{grid-template-columns:1fr;}
+  .ep-timeline-item{grid-template-columns:1fr;gap:6px;}
+  .ep-hero-inner{padding:120px 24px 80px;}
+  .ep-sec-head{flex-direction:column;align-items:flex-start;gap:14px;}
+}
+@media (max-width:480px){
+  .ep-sec{padding:52px 0;}
+  .ep-h2{font-size:23px;}
+}
+
+</style>
+
 </head>
 <body>
-<main>
-  <header class="header">
-    <a href="#top" class="brand" aria-label="エポラーシェ トップへ"><img src="images/logo.png" alt="EPORASHE"></a>
-    <nav aria-label="ページ内メニュー"><a href="#features">商品の特徴</a><a href="#howto">使い方</a><a href="#products">商品を選ぶ</a></nav>
-    <a class="headerCta" href="#products">まずは試してみる</a>
-  </header>
+<!-- ============================================================
+  モイストクレンジングプラスLP / ボディー編集欄用
+  ------------------------------------------------------------
+  【構造について】
+  ページ本体を <div class="ep-guide-page"> で囲んでいます。
+  ただし購入フォーム部分は、CSSリセットの影響を受けないよう
+  意図的にラッパーの外に出しています。
+  （ラッパー内に置くとフォームのデザインが崩れます）
 
-  <section class="hero" id="top">
-    <div class="heroBg"><img src="images/hero-premium.png" alt="モイストクレンジングプラスと濃密ジェル"></div>
-    <div class="heroCopy">
-      <p class="eyebrow">MOIST CLEANSING PLUS</p>
-      <h1>きちんと落として、<br>うるおいは逃さない。</h1>
-      <p class="heroLead">植物オイルと美容液成分を抱え込んだ濃密ジェル。<br class="pc">落とす時間を、肌をいたわる時間へ。</p>
-      <div class="heroTags"><span>美容液成分配合</span><span>W洗顔不要</span><span>国内製造</span></div>
-      <a class="primaryBtn" href="#products">990円のセットから試す <b>→</b></a>
-      <p class="small">9点セット・送料無料／お一人様1点まで</p>
+    <div class="ep-guide-page"> … 前半 … </div>
+    ← ここに購入フォーム（スコープ外）
+    <div class="ep-guide-page"> … 後半 … </div>
+
+  ★ ep-guide-page の div は削除しないでください。
+============================================================ -->
+
+<!-- ============================================================
+  ▼▼▼ キャンペーン差し込み枠（ここから）▼▼▼
+  常設LPとして1年使い、キャンペーン期間中のみ
+  下記コメントを外して内容を書き換える運用です。削除しないでください。
+
+<div class="ep-guide-page">
+  <div class="ep-campaign">
+    <div class="ep-container">
+      <p>キャンペーン期間中の表記をここに（例：◯月限定｜◯◯円 → ◯◯円（税込）／◯月◯日〜◯月◯日）</p>
     </div>
-    <span class="scroll">SCROLL</span>
-  </section>
+  </div>
+</div>
 
-  <section class="factBar" aria-label="商品の特徴">
-    <div><strong>濃密ジェル</strong><span>美容液成分配合のとろみ処方</span></div>
-    <div><strong>植物オイル2種</strong><span>米ぬか油・コーン油で洗浄</span></div>
-    <div><strong>AHA配合</strong><span>古い角質をやさしくケア</span></div>
-    <div><strong>W洗顔不要</strong><span>毎日のクレンジングをシンプルに</span></div>
-  </section>
+  ▲▲▲ キャンペーン差し込み枠（ここまで）▲▲▲
+============================================================ -->
 
-  <section class="section empathy">
-    <div class="portrait"><img src="images/empathy.jpg" alt="鏡の前で頬に手をあてる女性"></div>
-    <div class="copy">
-      <p class="eyebrow">FOR YOUR SKIN</p>
-      <h2>「落とすほど乾く」は、<br>もう終わりにしませんか。</h2>
-      <p class="intro">しっかりメイクを落としたい。でも、洗い上がりのつっぱりや乾燥は気になる。そんな相反する気持ちに寄り添うために生まれました。</p>
-      <ul class="checkList"><li>濃いメイクの日ほど、肌への負担が気になる</li><li>クレンジング後のつっぱり・かさつきが気になる</li><li>落とすことと、うるおいケアを両立したい</li></ul>
+<div class="ep-guide-page">
+
+  <!-- ========== 固定ヘッダー ========== -->
+  <div class="ep-header" id="epHeader">
+    <div class="ep-header-inner">
+      <a class="ep-header-logo" href="#top">
+        <img src="images/logo-white.webp" alt="エポラーシェ" width="133" height="133">
+      </a>
+      <button class="ep-burger" id="burger" type="button" aria-label="メニューを開く" aria-expanded="false" aria-controls="drawer">
+        <span></span><span></span><span></span>
+      </button>
     </div>
-  </section>
+  </div>
 
-  <section class="section features" id="features">
-    <div class="sectionHead"><p class="eyebrow">WHY MOIST CLEANSING PLUS</p><h2>洗浄・角質ケア・うるおい。<br>毎日にほしい3つを、1本に。</h2></div>
-    <div class="featureGrid">
-      <article><span>01</span><h3>植物オイルで<br>メイクを包み込む</h3><p>米ぬか油とコーン油を配合。もっちりとしたジェルがメイクになじみ、やさしく洗い流します。</p></article>
-      <article><span>02</span><h3>AHAで古い角質を<br>やさしくケア</h3><p>クレンジングと同時に、古い角質によるくすみをケア。洗うたび、なめらかな肌印象へ。</p></article>
-      <article><span>03</span><h3>美容液成分配合で<br>うるおいを守る</h3><p>ヘマトコッカスプルビアリスエキスやアロエベラ葉エキスなどを配合しています。</p></article>
-    </div>
-    <div class="texture">
-      <div class="textureImage"><img src="images/proof-jelly.jpg" alt="手のひらにとった濃密なオレンジ色のジェル"></div>
-      <div><p class="eyebrow">JELLY TEXTURE</p><h2>摩擦を抑えてなじませやすい、<br>もっちり濃密ジェル。</h2><p>厚みのあるジェルがクッションのように肌を包み、メイクとなじみます。オレンジ色は配合成分によるものです。</p></div>
-    </div>
-  </section>
+  <!-- ========== ドロワーメニュー ========== -->
+  <div class="ep-drawer-overlay" id="drawerOverlay"></div>
+  <nav class="ep-drawer" id="drawer" aria-label="メニュー" aria-hidden="true">
+    <button class="ep-drawer-close" id="drawerClose" type="button" aria-label="メニューを閉じる">×</button>
+    <ul class="ep-drawer-nav">
+      <li><a href="#reasons">選ばれる理由</a></li>
+      <li><a href="#compare">独自性について</a></li>
+      <li><a href="#story">開発ストーリー</a></li>
+      <li><a href="#howto">使い方</a></li>
+      <li><a href="#voices">お客様の声</a></li>
+      <li><a href="#spec">成分について</a></li>
+      <li><a href="#faq">よくある質問</a></li>
+      <li><a class="ep-drawer-cta" href="#form">ご注文はこちら</a></li>
+    </ul>
+    <p class="ep-drawer-tel">
+      お電話でのご注文<br>
+      <a href="tel:0120561115">0120-56-1115</a>
+      <span>平日 10:00〜14:00／15:00〜18:30</span>
+    </p>
+  </nav>
 
-  <section class="story">
-    <div class="storyLead"><p class="eyebrow">OUR STORY</p><h2>お客様のひとことが、<br>新しいクレンジングの始まりでした。</h2><p>「保湿感はそのままで、マスカラもしっかり落としたい」。その声に応えるため、植物オイルと濃密ジェルの処方を追求しました。</p></div>
-    <div class="mangaRow">
-      <figure><span>01 / VOICE</span><img src="images/manga1.jpg" alt="お客様の声を受け取る"><figcaption>お客様の声を受け取る</figcaption></figure>
-      <figure><span>02 / RESEARCH</span><img src="images/manga2.jpg" alt="2種の植物オイルに着目"><figcaption>2種の植物オイルに着目</figcaption></figure>
-      <figure><span>03 / FORMULA</span><img src="images/manga3.jpg" alt="濃密ジェルが完成"><figcaption>濃密ジェルが完成</figcaption></figure>
-      <figure><span>04 / COMPLETION</span><img src="images/manga4.jpg" alt="洗い上がりまで心地よく"><figcaption>洗い上がりまで心地よく</figcaption></figure>
+  <!-- ========== ヒーロー ========== -->
+  <div class="ep-hero" id="top">
+    <div class="ep-hero-media">
+      <img src="images/hero.webp" alt="ガラスのトレイにのせた、とろみのある濃密ジェルとユーカリの葉" width="1365" height="768" fetchpriority="high">
     </div>
-  </section>
-
-  <section class="section howto" id="howto">
-    <div class="sectionHead"><p class="eyebrow">HOW TO USE</p><h2>3ステップで、心地よく。</h2><p>さくらんぼ1粒大が目安。乾いた手でお使いください。</p></div>
-    <div class="stepGrid">
-      <article><div><img src="images/step-take.jpg" alt="乾いた手にとる"><b>STEP 1</b></div><h3>乾いた手にとる</h3><p>さくらんぼ1粒大を目安にとります。</p></article>
-      <article><div><img src="images/step-massage.jpg" alt="やさしくなじませる"><b>STEP 2</b></div><h3>やさしくなじませる</h3><p>メイクとなじむよう、顔全体に広げます。</p></article>
-      <article><div><img src="images/step-rinse.jpg" alt="ぬるま湯で流す"><b>STEP 3</b></div><h3>ぬるま湯で流す</h3><p>水またはぬるま湯で洗い流します。W洗顔は不要です。</p></article>
+    <div class="ep-container ep-hero-inner">
+      <p class="ep-hero-brand">EPORASHE ｜ エポラーシェ</p>
+      <h1 class="ep-hero-title"><span class="ep-l">きちんと落として、</span><br><span class="ep-l">うるおいは、逃さない。</span><br><span class="ep-l"><em>その両立を、1本に。</em></span></h1>
+      <p class="ep-hero-lead">美容液成分配合の濃密ジェルが、メイクをすっきりオフしながら肌にうるおいを届けます。植物オイルとAHAで、やさしく整えるクレンジング。</p>
+      <div class="ep-hero-badges">
+        <span class="ep-badge">美容液成分配合</span>
+        <span class="ep-badge">植物由来オイルで洗浄</span>
+        <span class="ep-badge">AHAでやさしく角質ケア</span>
+        <span class="ep-badge">国内製造</span>
+      </div>
+      <div class="ep-hero-actions">
+        <a class="ep-btn ep-btn-primary" href="#form">まずはお試し（トライアルセット990円・送料無料）</a>
+        <a class="ep-hero-textlink" href="#order">通常商品（250mL）はこちら →</a>
+      </div>
+      <p class="ep-hero-proof">総合満足度97.2%／購入者アンケート142名（2025年10月実施）</p>
     </div>
-  </section>
+  </div>
 
-  <section class="voices">
-    <div class="sectionHead light"><p class="eyebrow">CUSTOMER VOICE</p><h2>使い続けている方の声。</h2><p>購入者アンケート（2025年10月実施・142名）より</p></div>
-    <div class="voiceGrid">
-      <article><span>★★★★★</span><h3>休日も日焼け止めを塗る習慣がつきました</h3><p>「毎日使ってもつっぱらないので、休日も日焼け止めを塗る習慣がつきました。」</p><small>城山さん（一部抜粋）</small></article>
-      <article><span>★★★★★</span><h3>潤いは残りつつ、落としたいものが落ちる</h3><p>「洗浄力を求めると肌がつっぱっていましたが、潤いは残りつつ、落としたいものが落ちます。」</p><small>近田さん</small></article>
-      <article><span>★★★★★</span><h3>やさしさと洗浄力を両立している商品</h3><p>「ふわふわとした印象のテクスチャー。肌へのやさしさと、しっかりとした洗浄力を両立しています。」</p><small>松本さん（一部抜粋）</small></article>
+  <!-- ========== クイック値バー ========== -->
+  <div class="ep-quick">
+    <div class="ep-container ep-quick-grid">
+      <div class="ep-quick-item"><strong>濃密ジェル</strong><span>美容液成分配合のとろみ処方</span></div>
+      <div class="ep-quick-item"><strong>植物オイル2種</strong><span>米ぬか油・コーン油で洗浄</span></div>
+      <div class="ep-quick-item"><strong>AHA配合</strong><span>やさしく角質もケア</span></div>
+      <div class="ep-quick-item"><strong>約183円</strong><span>1日あたりの価格（250mL）</span></div>
     </div>
-    <p class="disclaimer">※個人の感想です。使用感には個人差があります。</p>
-  </section>
+  </div>
 
-  <section class="section products" id="products">
-    <div class="sectionHead"><p class="eyebrow">CHOOSE YOUR FIRST STEP</p><h2>まずは、肌との相性を<br>確かめてください。</h2></div>
-    <div class="productGrid">
-      <article class="featured"><b class="ribbon">初めての方におすすめ</b><img src="images/product-trial.jpg" alt="エポラーシェ トライアルセット"><p class="productName">モイストクレンジングプラスほか8点</p><h3>トライアルセット</h3><p class="price"><strong>990</strong>円（税込）</p><p>9点セット・送料無料<br>お一人様1点まで</p><a class="primaryBtn" href="#form">トライアルセットを試す <b>→</b></a></article>
-      <article><img src="images/product-80ml.jpg" alt="モイストクレンジングプラス 80mL"><p class="productName">モイストクレンジングプラス</p><h3>80mL</h3><p class="price"><strong>1,980</strong>円（税込）</p><p>この商品だけを<br>じっくり試したい方に</p><a class="outlineBtn" href="#form">80mLを注文する</a></article>
-      <article><img src="images/product-250ml.jpg" alt="モイストクレンジングプラス 250mL"><p class="productName">モイストクレンジングプラス</p><h3>250mL</h3><p class="price"><strong>5,500</strong>円（税込）</p><p>約1〜1.5ヶ月分<br>たっぷり使いたい方に</p><a class="outlineBtn" href="#form">250mLを注文する</a></article>
+  <!-- ========== 共感 ========== -->
+  <div class="ep-sec ep-empathy">
+    <div class="ep-container ep-empathy-grid">
+      <div class="ep-empathy-copy ep-reveal">
+        <p class="ep-eyebrow">FOR YOU</p>
+        <h2 class="ep-h2">そのクレンジング、<br>洗うたびに、肌が乾きませんか。</h2>
+        <div class="ep-checklist">
+          <div class="ep-check">しっかり落としたいのに、洗うたびに肌がつっぱる</div>
+          <div class="ep-check">クレンジングのあと、肌がかさつく気がする</div>
+          <div class="ep-check">濃いメイクの日ほど、肌への負担が気になる</div>
+          <div class="ep-check">「落とす」ことと「整える」ことを両方叶えたい</div>
+        </div>
+        <p class="ep-empathy-close">ひとつでも頷いたなら、<br>このページはあなたのためにあります。</p>
+        <p class="ep-section-cta section-cta">▷ <a href="#order">このページの下部からご購入いただけます</a></p>
+      </div>
+      <div class="ep-empathy-image ep-reveal">
+        <img src="images/empathy.webp" alt="鏡の前で頬に手をあてる女性" width="896" height="1194" loading="lazy">
+      </div>
     </div>
-    <div class="ingredients"><details><summary>全成分・使用上の注意を見る</summary><p>ラウリン酸ポリグリセリル-10、グリセリン、乳酸桿菌／セイヨウナシ果汁発酵液、アスペルギルス／(マンダリンオレンジ×スイートオレンジ果実／コメ／イチゴ果実)発酵液、グレープフルーツ果皮油、コメヌカ油、コレステロール、セラミドAP、セラミドEOP、セラミドNP、トウモロコシ胚芽油、トコトリエノール、トコフェロール、グリチルリチン酸2K、ヘマトコッカスプルビアリスエキス、ヒアルロン酸Na、アロエベラ葉エキス、エチルヘキシルグリセリン、カルボマー、キサンタンガム、クエン酸、クエン酸Na、乳酸、フィトスフィンゴシン、トリ（カプリル酸／カプリン酸）グリセリル、ラウロイルラクチレートNa、異性化糖、水酸化K、水添レシチン、(アクリロイルジメチルタウリンアンモニウム/VP)コポリマー、1,2-ヘキサンジオール、BG、t-ブタノール、フェノキシエタノール<br><br>お肌に異常が生じていないかよく注意して使用してください。お肌に合わないときは、ご使用をおやめください。</p></details></div>
-  </section>
+  </div>
 
-  <section class="finalCta" id="form"><img src="images/final.jpg" alt=""><div><p class="eyebrow">A GENTLE ENDING, EVERY DAY</p><h2>落とすたび、<br>うるおいを感じる肌へ。</h2><a class="primaryBtn" href="#products">商品を選ぶ <b>→</b></a></div></section>
-  <footer><img src="images/logo.png" alt="EPORASHE"><p>エポラーシェ／株式会社トリプルサン<br>フリーコール 0120-56-1115　平日 10:00〜14:00／15:00〜18:30</p></footer>
-  <a class="mobileCta" href="#products">990円のセットから試す</a>
-</main>
+  <!-- ========== 4コマ漫画 ========== -->
+  <div class="ep-sec ep-manga">
+    <div class="ep-container">
+      <div class="ep-sec-head ep-reveal">
+        <div><p class="ep-eyebrow">STORY IN 30 SEC</p><h2 class="ep-h2">30秒でわかる、<br>誕生のはなし。</h2></div>
+        <p>一通のお客様の声から、この処方が生まれるまで。読むのに30秒だけいただけますか。</p>
+      </div>
+      <div class="ep-manga-grid ep-reveal">
+        <figure class="ep-manga-item">
+          <div class="ep-manga-frame"><img src="images/manga1.webp" alt="お客様からの手紙を読む岡江美希" width="1024" height="1024" loading="lazy"></div>
+          <figcaption>「保湿感はそのままで、マスカラもしっかり落としたい」――お客様からの、うれしいリクエスト。</figcaption>
+        </figure>
+        <figure class="ep-manga-item">
+          <div class="ep-manga-frame"><img src="images/manga2.webp" alt="植物オイルを研究する岡江美希" width="1024" height="1024" loading="lazy"></div>
+          <figcaption>石油系の洗浄成分ではなく、米ぬか油とコーン油、2つの植物オイルに着目。</figcaption>
+        </figure>
+        <figure class="ep-manga-item">
+          <div class="ep-manga-frame"><img src="images/manga3.webp" alt="完成したジェルを見つめる岡江美希" width="1024" height="1024" loading="lazy"></div>
+          <figcaption>メイクを包み込むような、もっちりとした濃密ジェルがようやく完成。</figcaption>
+        </figure>
+        <figure class="ep-manga-item">
+          <div class="ep-manga-frame"><img src="images/manga4.webp" alt="洗い上がりの心地よさに微笑む岡江美希" width="1024" height="1024" loading="lazy"></div>
+          <figcaption>洗い上がりの、つっぱらない心地よさ。まるでスキンケアのあとのように。</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== 選ばれる理由 ========== -->
+  <div class="ep-sec ep-reasons" id="reasons">
+    <div class="ep-container">
+      <div class="ep-sec-head ep-reveal">
+        <div><p class="ep-eyebrow">3 REASONS</p><h2 class="ep-h2">選ばれる理由は、<br>シンプルです。</h2></div>
+        <p>難しい理屈より、毎日気持ちよく続けられるかどうか。モイストクレンジングプラスは、洗浄・角質ケア・うるおいの3つを大切にしました。</p>
+      </div>
+      <div class="ep-reason-grid">
+        <div class="ep-reason-card ep-reveal">
+          <span class="ep-reason-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M12 2C9 7 5 11 5 15a7 7 0 0 0 14 0c0-4-4-8-7-13z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg></span>
+          <p class="ep-reason-num">01 / CLEANSE</p>
+          <p class="ep-reason-value">植物オイル<small>2種</small></p>
+          <h3 class="ep-h3">肌の力を守りながら落とす。</h3>
+          <p>米ぬか油・コーン油という、人の皮脂に近い植物オイルを厳選。石油系界面活性剤は使わず、うるおいを守りながら汚れだけをやさしくオフします。</p>
+        </div>
+        <div class="ep-reason-card ep-reveal">
+          <span class="ep-reason-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M4 20c8 0 14-6 14-16-9 0-15 6-15 16 3 0 5-1 7-3" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/></svg></span>
+          <p class="ep-reason-num">02 / CARE</p>
+          <p class="ep-reason-value">AHA<small>配合</small></p>
+          <h3 class="ep-h3">角質も、やさしくケア。</h3>
+          <p>古い角質による肌のくすみを、クレンジングと同時にケア。穏やかな設計なので、繊細な肌の方にも使いやすい処方です。</p>
+        </div>
+        <div class="ep-reason-card ep-reveal">
+          <span class="ep-reason-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3l1.6 4.4L18 9l-4.4 1.6L12 15l-1.6-4.4L6 9l4.4-1.6L12 3z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><path d="M18 15l.8 2.2L21 18l-2.2.8L18 21l-.8-2.2L15 18l2.2-.8L18 15z" stroke="currentColor" stroke-width="1.1" stroke-linejoin="round"/></svg></span>
+          <p class="ep-reason-num">03 / SERUM</p>
+          <p class="ep-reason-value">美容液成分<small>配合</small></p>
+          <h3 class="ep-h3">洗うたびに、うるおいを。</h3>
+          <p>ヘマトコッカスプルビアリスエキスやアロエベラ葉エキスなど、美容液発想の成分をたっぷり配合。クレンジングをスキンケアの時間に変えます。</p>
+        </div>
+      </div>
+      <p class="ep-section-cta section-cta ep-center">▷ <a href="#order">価格・購入はこのページの下部へ</a></p>
+    </div>
+  </div>
+
+  <!-- ========== 独自性について ========== -->
+  <div class="ep-sec ep-compare" id="compare">
+    <div class="ep-container">
+      <div class="ep-sec-head ep-reveal">
+        <div><p class="ep-eyebrow">WHY BOTH</p><h2 class="ep-h2">「落とす」か「守る」か。<br>私たちは、両方を選びました。</h2></div>
+        <p>多くのオイルクレンジングが洗浄力を優先する中、モイストクレンジングプラスは、洗浄とうるおいの両立にこだわりました。</p>
+      </div>
+      <div class="ep-compare-grid ep-reveal">
+        <div class="ep-compare-card">
+          <p class="ep-compare-label">GENERAL OIL CLEANSING</p>
+          <h3 class="ep-h3">一般的なオイルクレンジング</h3>
+          <div class="ep-flow"><span class="ep-dot"></span><span class="ep-dot"></span><span class="ep-dot"></span><span class="ep-dot"></span><span class="ep-dot"></span><span class="ep-dot"></span></div>
+          <p>石油系界面活性剤で洗浄力を確保。しっかり落ちる分、肌に必要なうるおいまで奪われがちです。</p>
+        </div>
+        <div class="ep-compare-card ep-featured">
+          <p class="ep-compare-label">MOIST CLEANSING PLUS</p>
+          <h3 class="ep-h3">植物オイル×濃密ジェル</h3>
+          <div class="ep-flow"><span class="ep-dot"></span><span class="ep-link"></span><span class="ep-dot"></span><span class="ep-link"></span><span class="ep-dot"></span><span class="ep-link"></span><span class="ep-dot"></span></div>
+          <p>植物由来オイルともっちりとした濃密ジェルで、汚れだけを包み込んでオフ。うるおいは肌に残します。</p>
+        </div>
+      </div>
+      <p class="ep-compare-note ep-reveal">「保湿感はそのままで、マスカラもしっかり落としたい」というお客様の声から、この処方は生まれました。</p>
+      <figure class="ep-proof ep-reveal">
+        <img src="images/proof-jelly.webp" alt="手のひらにとった、とろみのある濃密ジェル" width="1000" height="666" loading="lazy" onerror="this.style.display='none'">
+        <figcaption>手のひらにとった、とろみのある濃密ジェル。植物オイルと美容液成分をたっぷり含んでいます。</figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <!-- ========== 開発ストーリー ========== -->
+  <div class="ep-sec ep-story" id="story">
+    <div class="ep-container ep-story-grid">
+      <figure class="ep-story-photo ep-reveal">
+        <img src="images/okae.webp" alt="美容研究家 岡江美希" width="1080" height="1440" loading="lazy">
+        <figcaption>美容研究家　岡江美希</figcaption>
+      </figure>
+      <div class="ep-reveal">
+        <p class="ep-eyebrow">STORY</p>
+        <h2 class="ep-h2">一通の手紙から、<br>生まれた処方があります。</h2>
+        <div class="ep-timeline">
+          <div class="ep-timeline-item"><p class="ep-timeline-year">はじまり</p><div><h3 class="ep-h3">「ただ落とすだけでいいのか」という問い</h3><p>メイクを落とすことは大切だけれど、それ以上に大切なのは、肌本来の力を守り、育むこと。そんな想いからクレンジング開発は始まりました。</p></div></div>
+          <div class="ep-timeline-item"><p class="ep-timeline-year">きっかけ</p><div><h3 class="ep-h3">お客様からの、うれしいリクエスト</h3><p>人気のモイストクレンジング（オイルフリータイプ）をご愛用のお客様から、「保湿感はそのままで、マスカラもしっかり落としたい」という声をいただきました。</p></div></div>
+          <div class="ep-timeline-item"><p class="ep-timeline-year">こだわり</p><div><h3 class="ep-h3">2つの植物オイルにたどり着く</h3><p>石油系界面活性剤ではなく、米ぬか油とコーン油という2種の植物オイルを厳選。高い保湿力としっかりした洗浄力の両立を目指しました。</p></div></div>
+          <div class="ep-timeline-item"><p class="ep-timeline-year">完成</p><div><h3 class="ep-h3">もっちりとした、濃密ジェルへ</h3><p>メイクを優しく包み込むジェルテクスチャーが誕生。美容液成分もたっぷり配合し、クレンジングをスキンケアの時間に変えました。</p></div></div>
+        </div>
+        <blockquote class="ep-story-quote">「保湿感はそのままで、マスカラもしっかり落としたい」というお客様の声が、開発の出発点でした。</blockquote>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== 使い方 ========== -->
+  <div class="ep-sec ep-howto" id="howto">
+    <div class="ep-container">
+      <div class="ep-sec-head ep-reveal">
+        <div><p class="ep-eyebrow">HOW TO USE</p><h2 class="ep-h2">毎日のことだから、<br>シンプルに、心地よく。</h2></div>
+        <p>さくらんぼ1粒大を目安に。W洗顔は不要です（お好みでモイスチャーソープもどうぞ）。</p>
+      </div>
+      <div class="ep-howto-grid">
+        <div class="ep-how-card ep-reveal">
+          <img src="images/step-take.webp" alt="乾いた手にジェルをとる" width="1194" height="896" loading="lazy">
+          <div class="ep-how-body"><p class="ep-kicker">STEP 1</p><h3 class="ep-h3">乾いた手にとる</h3><p>さくらんぼ1粒大を目安に、乾いた手にとります。</p></div>
+        </div>
+        <div class="ep-how-card ep-reveal">
+          <img src="images/step-massage.webp" alt="やさしくなじませる" width="1194" height="896" loading="lazy">
+          <div class="ep-how-body"><p class="ep-kicker">STEP 2</p><h3 class="ep-h3">やさしくなじませる</h3><p>メイクとなじむよう、やさしくマッサージするように顔全体になじませます。</p></div>
+        </div>
+        <div class="ep-how-card ep-reveal">
+          <img src="images/step-rinse.webp" alt="ぬるま湯で洗い流す" width="1194" height="896" loading="lazy">
+          <div class="ep-how-body"><p class="ep-kicker">STEP 3</p><h3 class="ep-h3">洗い流す</h3><p>ぬるま湯か水で洗い流します。W洗顔の必要はありません。</p></div>
+        </div>
+      </div>
+      <p class="ep-note ep-center">※目もとの濃いメイクは、なじむまで少し時間をおくのがおすすめです。</p>
+    </div>
+  </div>
+
+  <!-- ========== お客様の声 ========== -->
+  <div class="ep-sec ep-voices" id="voices">
+    <div class="ep-container">
+      <div class="ep-sec-head ep-reveal">
+        <div><p class="ep-eyebrow">VOICE</p><h2 class="ep-h2">使い続けている方の声。</h2></div>
+        <p>購入者アンケート（2025年10月実施・142名）に寄せられた声の中から、続けやすさが伝わるものをご紹介します。</p>
+      </div>
+      <div class="ep-review-graph ep-reveal">
+        <div class="ep-review-graph-num"><strong>97.2</strong><span>%</span></div>
+        <div class="ep-review-graph-bar"><div class="ep-review-graph-fill" style="width:97.2%"></div></div>
+        <p class="ep-review-graph-label">総合満足度（とても満足＋満足＋やや満足の合計）／購入者アンケート142名・2025年10月実施</p>
+      </div>
+      <div class="ep-voice-grid">
+        <div class="ep-voice ep-reveal">
+          <p class="ep-stars">★★★★★</p>
+          <h3 class="ep-h3">休日も日焼け止めを塗る習慣がつきました</h3>
+          <p>安心して使えるクレンジングはそう多くないと思います。毎日使ってもつっぱらないので、休日も日焼け止めを塗る習慣がつきました。</p>
+          <p class="ep-voice-meta">城山さん（購入者アンケートより・一部抜粋）</p>
+        </div>
+        <div class="ep-voice ep-reveal">
+          <p class="ep-stars">★★★★★</p>
+          <h3 class="ep-h3">潤いは残りつつ、落としたいものが落ちる</h3>
+          <p>洗浄力を求めると肌がつっぱっていましたが、モイストクレンジングは潤いは残りつつ、落としたいものが落ちます。</p>
+          <p class="ep-voice-meta">近田さん（購入者アンケートより）</p>
+        </div>
+        <div class="ep-voice ep-reveal">
+          <p class="ep-stars">★★★★★</p>
+          <h3 class="ep-h3">やさしさと洗浄力を両立している商品</h3>
+          <p>初めて使った時、テクスチャーがふわふわとした印象で驚きました。肌への優しさと、しっかりとした洗浄力を両立している商品です。</p>
+          <p class="ep-voice-meta">松本さん（購入者アンケートより・一部抜粋）</p>
+        </div>
+      </div>
+      <p class="ep-note ep-center">※いずれも個人の感想です。掲載にあたり一部を抜粋しています（本文の書き換えは行っていません）。</p>
+      <div class="ep-trust ep-reveal">
+        <div class="ep-trust-item"><strong>無添加処方</strong><span>無鉱物油・パラベンフリー<br>ノンアルコール・タール系色素不使用</span></div>
+        <div class="ep-trust-item"><strong>国内製造</strong><span>原産国は日本</span></div>
+        <div class="ep-trust-item"><strong>満足度97.2%</strong><span>購入者アンケート142名<br>（2025年10月実施）</span></div>
+      </div>
+      <div class="ep-midcta ep-reveal">
+        <a class="ep-btn ep-btn-primary" href="#form">まずはトライアルセット（990円）から</a>
+        <p class="ep-microcopy">9点セットで、クレンジングから下地までひと通り試せます。</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== コスパ ========== -->
+  <div class="ep-sec ep-cost">
+    <div class="ep-container-narrow ep-reveal">
+      <p class="ep-eyebrow">EVERY DAY</p>
+      <h2 class="ep-h2">1日あたり、<br>コーヒー1杯より小さく。</h2>
+      <p class="ep-cost-value">約183<small>円／日</small></p>
+      <p>高いか、安いか。それは金額ではなく、10年後の肌が決めること。モイストクレンジングプラスは「続けられる価格」であることも、品質のうちだと考えています。</p>
+    </div>
+  </div>
+
+  <!-- ========== 向き不向き ========== -->
+  <div class="ep-sec ep-fit">
+    <div class="ep-container-narrow">
+      <div class="ep-sec-head ep-reveal"><div><p class="ep-eyebrow">HONESTLY</p><h2 class="ep-h2">正直に言うと、<br>向いていない方もいます。</h2></div></div>
+      <div class="ep-fit-grid ep-reveal">
+        <div class="ep-fit-card">
+          <div class="ep-fit-head"><span class="ep-fit-mark ep-mark-no">✕</span><h3 class="ep-h3">おすすめしない方</h3></div>
+          <ul class="ep-fit-list">
+            <li><span class="ep-fit-icon ep-icon-no">✕</span>オイルフリーの軽い使い心地を求める方（モイストクレンジングがおすすめです）</li>
+            <li><span class="ep-fit-icon ep-icon-no">✕</span>とにかく時短で済ませたい方（なじませる工程があります）</li>
+            <li><span class="ep-fit-icon ep-icon-no">✕</span>オイル自体が肌に合わない方</li>
+          </ul>
+        </div>
+        <div class="ep-fit-card ep-good">
+          <div class="ep-fit-head"><span class="ep-fit-mark ep-mark-yes">◯</span><h3 class="ep-h3">ぜひ試してほしい方</h3></div>
+          <ul class="ep-fit-list">
+            <li><span class="ep-fit-icon ep-icon-yes">◯</span>しっかりメイクオフしたいけれど、肌へのやさしさも譲れない方</li>
+            <li><span class="ep-fit-icon ep-icon-yes">◯</span>洗い上がりのつっぱりが気になっていた方</li>
+            <li><span class="ep-fit-icon ep-icon-yes">◯</span>クレンジングしながら、うるおいケアもしたい方</li>
+          </ul>
+        </div>
+      </div>
+      <p class="ep-note ep-right">合わないものを売りたくないので、先にお伝えしました。</p>
+      <p class="ep-section-cta section-cta ep-center">▷ <a href="#order">気になった方はこのページの下部からご購入いただけます</a></p>
+    </div>
+  </div>
+
+  <!-- ========== 成分（法令上、削除不可） ========== -->
+  <div class="ep-sec ep-spec" id="spec">
+    <div class="ep-container-narrow">
+      <div class="ep-sec-head ep-reveal"><div><p class="ep-eyebrow">INGREDIENTS</p><h2 class="ep-h2">成分について。</h2></div><p>肌につけるものだからこそ、すべて開示します。</p></div>
+      <div class="ep-spec-stats ep-reveal">
+        <div class="ep-spec-stat"><strong>250mL</strong><span>たっぷり使える容量</span></div>
+        <div class="ep-spec-stat"><strong>約1〜1.5<small>ヶ月</small></strong><span>使用目安（個人差があります）</span></div>
+        <div class="ep-spec-stat"><strong>日本製</strong><span>原産国</span></div>
+      </div>
+      <div class="ep-spec-badges ep-reveal">
+        <span class="ep-spec-badge">無鉱物油</span>
+        <span class="ep-spec-badge">パラベンフリー</span>
+        <span class="ep-spec-badge">ノンアルコール</span>
+        <span class="ep-spec-badge">タール系色素不使用</span>
+      </div>
+      <details class="ep-ingredients ep-reveal">
+        <summary>全成分を見る</summary>
+        <p>ラウリン酸ポリグリセリル-10、グリセリン、乳酸桿菌／セイヨウナシ果汁発酵液、アスペルギルス／(マンダリンオレンジ×スイートオレンジ果実／コメ／イチゴ果実)発酵液、グレープフルーツ果皮油、コメヌカ油、コレステロール、セラミドAP、セラミドEOP、セラミドNP、トウモロコシ胚芽油、トコトリエノール、トコフェロール、グリチルリチン酸2K、ヘマトコッカスプルビアリスエキス、ヒアルロン酸Na、アロエベラ葉エキス、エチルヘキシルグリセリン、カルボマー、キサンタンガム、クエン酸、クエン酸Na、乳酸、フィトスフィンゴシン、トリ（カプリル酸／カプリン酸）グリセリル、ラウロイルラクチレートNa、異性化糖、水酸化K、水添レシチン、(アクリロイルジメチルタウリンアンモニウム/VP)コポリマー、1,2-ヘキサンジオール、BG、t-ブタノール、フェノキシエタノール</p>
+      </details>
+      <div class="ep-caution ep-reveal">
+        <strong>ご使用の際のご注意</strong><br>
+        お肌に異常が生じていないかよく注意して使用してください。<br>
+        お肌に合わないときは、ご使用をおやめください。
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== 商品ラインナップ ========== -->
+  <div class="ep-sec ep-offer" id="order">
+    <div class="ep-container-narrow">
+      <p class="ep-eyebrow ep-center">FIRST STEP</p>
+      <h2 class="ep-h2 ep-center">まずは、あなたに合うか<br>確かめてください。</h2>
+      <p class="ep-offer-lead">いきなり本品は不安という方へ、トライアルセットと80mLサイズをご用意しています。</p>
+      <div class="ep-offer-grid">
+        <div class="ep-offer-card ep-trial">
+          <span class="ep-ribbon">初めての方に</span>
+          <img class="ep-offer-img" src="images/product-trial.webp" alt="エポラーシェトライアルセット（9点入り）" width="1000" height="1000" loading="lazy" onerror="this.style.display='none'">
+          <p class="ep-offer-name">モイストクレンジングプラスほか8点</p>
+          <p class="ep-offer-plan">エポラーシェ<br>トライアルセット</p>
+          <p class="ep-offer-price">990<small>円（税込）</small></p>
+          <p class="ep-offer-sub">9点セット・送料無料／お一人様1点まで</p>
+          <ul class="ep-offer-list">
+            <li>モイストクレンジングプラスを含む9アイテムを一通り試せる</li>
+            <li>クレンジングから下地まで、水溶性のお手入れの入口に</li>
+            <li>ネコポス便・送料無料</li>
+          </ul>
+          <a class="ep-btn ep-btn-primary" href="#form">トライアルセットを試す</a>
+          <p class="ep-micro">※ネコポス便（ポスト投函）のため、お届け日時の指定はできません。</p>
+        </div>
+        <div class="ep-offer-card">
+          <img class="ep-offer-img" src="images/product-80ml.webp" alt="モイストクレンジングプラス 80mL" width="1000" height="1000" loading="lazy" onerror="this.style.display='none'">
+          <p class="ep-offer-name">モイストクレンジングプラス</p>
+          <p class="ep-offer-plan">80mL</p>
+          <p class="ep-offer-price">1,980<small>円（税込）</small></p>
+          <p class="ep-offer-sub">この商品だけをじっくり試したい方に</p>
+          <ul class="ep-offer-list">
+            <li>フルサイズと同じ処方をコンパクトに</li>
+            <li>旅行・持ち運びにも便利なサイズ</li>
+          </ul>
+          <a class="ep-btn ep-btn-primary" href="#form">80mLを注文する</a>
+        </div>
+        <div class="ep-offer-card">
+          <img class="ep-offer-img" src="images/product-250ml.webp" alt="モイストクレンジングプラス たっぷり250mL" width="1000" height="1000" loading="lazy" onerror="this.style.display='none'">
+          <p class="ep-offer-name">モイストクレンジングプラス</p>
+          <p class="ep-offer-plan">たっぷり250mL</p>
+          <p class="ep-offer-price">5,500<small>円（税込）</small></p>
+          <p class="ep-offer-sub">約1〜1.5ヶ月分／1日あたり約183円</p>
+          <ul class="ep-offer-list">
+            <li>美容液成分配合の濃密ジェル</li>
+            <li>植物オイルでやさしく洗浄</li>
+            <li>AHAで角質もケア</li>
+          </ul>
+          <a class="ep-btn ep-btn-primary" href="#form">250mLを注文する</a>
+        </div>
+      </div>
+
+      <!-- 定期便：条件明記＋配慮の一文（削除不可） -->
+      <div class="ep-teiki">
+        <h3 class="ep-h3">続けるほど、お得に。</h3>
+        <p>気に入って続けたくなったら、定期便がおすすめです。買い忘れがなくなり、<strong>3品以上のまとめ定期なら最大20%OFF</strong>になります（3回以上の継続が条件です）。まずはトライアルセットや単品でお試しいただいて、「これは続けたい」と思えたらで大丈夫。無理におすすめすることはありません。</p>
+        <a href="https://www.triplesun.co.jp/shop/pages/regular2" target="_blank" rel="noopener">定期便サービスのしくみを見る →</a>
+      </div>
+
+      <p class="ep-tel">
+        お電話でのご注文・ご相談（フリーコール）
+        <a href="tel:0120561115">0120-56-1115</a>
+        平日 10:00〜14:00 ／ 15:00〜18:30（土日祝休み）
+      </p>
+    </div>
+  </div>
+
+  <!-- 購入フォームへの導入見出し -->
+  <div class="ep-sec ep-formlead" id="form">
+    <div class="ep-container-narrow ep-center">
+      <p class="ep-eyebrow">ORDER</p>
+      <h2 class="ep-h2">ご注文フォーム</h2>
+      <p class="ep-formlead-text">下記フォームよりお申し込みいただけます。</p>
+    </div>
+  </div>
+
+</div><!-- /.ep-guide-page ここでいったん閉じる -->
+
+
+<!-- ============================================================
+     ▼▼▼【購入フォーム設置位置】▼▼▼
+
+     ecforce のテンプレートタイプ選択時に「ボディー編集」へ
+     自動入力されるフォーム部分の記述（__PAYMENT_FORM__ を含む）を
+     この位置にそのまま配置してください。
+
+     ★この位置は .ep-guide-page の外側です。
+       LP側のCSSはフォームに一切影響しません。
+     ★__PAYMENT_FORM__ は編集不可です。そのままお使いください。
+     ★CSS編集欄に自動入力されているフォーム用CSSも削除しないでください。
+
+     ▲▲▲【購入フォーム設置位置】▲▲▲
+============================================================ -->
+
+
+<div class="ep-guide-page"><!-- ここから後半 -->
+
+  <!-- ========== Q&A ========== -->
+  <div class="ep-sec ep-faq" id="faq">
+    <div class="ep-container-narrow">
+      <div class="ep-sec-head ep-reveal"><div><p class="ep-eyebrow">Q&amp;A</p><h2 class="ep-h2">よくいただくご質問。</h2></div></div>
+      <details class="ep-qa"><summary>マスカラもしっかり落ちますか？</summary><div class="ep-qa-a">濃密なジェルがメイクとなじみ、マスカラもオフしやすい設計です。目もとの濃いメイクは、なじむまで少し時間をおくと、よりすっきりします。</div></details>
+      <details class="ep-qa"><summary>W洗顔は必要ですか？</summary><div class="ep-qa-a">不要です。メイクがなじんだら、ぬるま湯か水で洗い流すだけでOK。お好みでモイスチャーソープを使ったW洗顔もお楽しみいただけます。</div></details>
+      <details class="ep-qa"><summary>敏感肌でも使えますか？</summary><div class="ep-qa-a">無鉱物油・パラベンフリー・ノンアルコール・タール系色素不使用の処方です。お肌に合わないときは、ご使用をおやめください。</div></details>
+      <details class="ep-qa"><summary>オイルフリーの「モイストクレンジング」との違いは？</summary><div class="ep-qa-a">モイストクレンジング（オイルフリー）は軽い使い心地でまつ毛エクステにも使いやすいタイプ、モイストクレンジングプラスは植物オイルベースでしっかりメイクオフしながらうるおいも守るタイプです。</div></details>
+      <details class="ep-qa"><summary>1本でどのくらい持ちますか？</summary><div class="ep-qa-a">250mLで約1〜1.5ヶ月分が目安です（使用量により個人差があります）。</div></details>
+      <details class="ep-qa"><summary>定期便はありますか？</summary><div class="ep-qa-a">はい。3品以上のまとめ定期なら最大20%OFFになります（3回以上の継続が条件です）。まずはトライアルセットや単品でお試しいただくのがおすすめです。</div></details>
+      <p class="ep-section-cta section-cta ep-center">▷ <a href="#order">ご不明点が解消したら、このページの下部からご購入いただけます</a></p>
+    </div>
+  </div>
+
+  <!-- ========== 最終メッセージ ========== -->
+  <div class="ep-sec ep-final">
+    <img class="ep-final-bg" src="images/final.webp" alt="" width="1365" height="768" loading="lazy">
+    <div class="ep-container-narrow ep-reveal">
+      <p class="ep-final-msg">落とすたびに、肌はうるおう。<br>そんなクレンジングを、届けたくて。</p>
+      <a class="ep-btn ep-btn-primary" href="#form">まずは試してみる</a>
+    </div>
+  </div>
+
+  <!-- ========== 直営店案内（全LP共通） ========== -->
+  <div class="ep-sec ep-shop">
+    <div class="ep-container-narrow ep-center ep-reveal">
+      <p class="ep-eyebrow">SHOP</p>
+      <h2 class="ep-h2">直営店舗で、試飲（お試し）できます。</h2>
+      <p class="ep-shop-text">使い心地は、実際に試すのがいちばん早い。直営店舗ではモイストクレンジングプラスのお試しを体験いただけます。スタッフがあなたに合う使い方も一緒に考えます。</p>
+      <a class="ep-btn ep-btn-line" href="https://333esthe.com/course/shoplist/" target="_blank" rel="noopener">店舗のご案内を見る</a>
+    </div>
+  </div>
+
+</div><!-- /.ep-guide-page -->
+
+<!-- ============================================================
+  モイストクレンジングプラスLP / フッター編集欄用
+============================================================ -->
+
+<div class="ep-guide-page">
+
+  <div class="ep-footer">
+    <img class="ep-footer-logo" src="images/logo.webp" alt="エポラーシェ" width="110" height="110">
+    <p class="ep-footer-text">
+      エポラーシェ（EPORASHE）／株式会社トリプルサン<br>
+      〒160-0023 東京都新宿区四谷本塩町15-12 カーサ四谷羽毛田ビル2F<br>
+      フリーコール <a href="tel:0120561115">0120-56-1115</a>（平日 10:00〜14:00／15:00〜18:30）
+    </p>
+  </div>
+
+  <!-- 追従CTA（スマホ） -->
+  <div class="ep-sticky" id="stickyCta">
+    <a href="#form">まずはトライアルセット　990円・送料無料</a>
+  </div>
+
+  <!-- トップへ戻る -->
+  <button class="ep-totop" id="backToTop" type="button" aria-label="ページ上部へ戻る">▲</button>
+
+</div><!-- /.ep-guide-page -->
+
+<!-- 構造化データ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "エポラーシェ",
+  "alternateName": "株式会社トリプルサン",
+  "url": "https://example.com/preview",
+  "logo": "images/logo.webp",
+  "telephone": "0120-56-1115",
+  "address": {
+    "@type": "PostalAddress",
+    "postalCode": "160-0023",
+    "addressRegion": "東京都",
+    "addressLocality": "新宿区",
+    "streetAddress": "四谷本塩町15-12 カーサ四谷羽毛田ビル2F",
+    "addressCountry": "JP"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "モイストクレンジングプラス",
+  "image": "images/product-250ml.webp",
+  "description": "米ぬか油・コーン油の植物オイルとAHAでやさしくメイクオフしながら、美容液成分でうるおいを届ける濃密クレンジングジェル。内容量250mL（約1〜1.5ヶ月分）。",
+  "brand": { "@type": "Brand", "name": "エポラーシェ" },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "JPY",
+    "price": "5500",
+    "availability": "https://schema.org/InStock",
+    "url": "https://example.com/preview"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type":"Question","name":"マスカラもしっかり落ちますか？","acceptedAnswer":{"@type":"Answer","text":"濃密なジェルがメイクとなじみ、マスカラもオフしやすい設計です。目もとの濃いメイクは、なじむまで少し時間をおくと、よりすっきりします。"}},
+    {"@type":"Question","name":"W洗顔は必要ですか？","acceptedAnswer":{"@type":"Answer","text":"不要です。メイクがなじんだら、ぬるま湯か水で洗い流すだけでOK。お好みでモイスチャーソープを使ったW洗顔もお楽しみいただけます。"}},
+    {"@type":"Question","name":"敏感肌でも使えますか？","acceptedAnswer":{"@type":"Answer","text":"無鉱物油・パラベンフリー・ノンアルコール・タール系色素不使用の処方です。お肌に合わないときは、ご使用をおやめください。"}},
+    {"@type":"Question","name":"オイルフリーの「モイストクレンジング」との違いは？","acceptedAnswer":{"@type":"Answer","text":"モイストクレンジング（オイルフリー）は軽い使い心地でまつ毛エクステにも使いやすいタイプ、モイストクレンジングプラスは植物オイルベースでしっかりメイクオフしながらうるおいも守るタイプです。"}},
+    {"@type":"Question","name":"1本でどのくらい持ちますか？","acceptedAnswer":{"@type":"Answer","text":"250mLで約1〜1.5ヶ月分が目安です（使用量により個人差があります）。"}},
+    {"@type":"Question","name":"定期便はありますか？","acceptedAnswer":{"@type":"Answer","text":"はい。3品以上のまとめ定期なら最大20%OFFになります（3回以上の継続が条件です）。まずはトライアルセットや単品でお試しいただくのがおすすめです。"}}
+  ]
+}
+</script>
+
+<script>
+/* ============================================================
+   モイストクレンジングプラスLP / script.js
+   - 外部ライブラリ不使用
+   - DOMContentLoaded後に初期化
+   - 各機能はtry-catchで分離（1つ失敗しても他は止まらない）
+   - 全DOM要素でnullチェック
+============================================================ */
+
+document.addEventListener('DOMContentLoaded', function () {
+
+  /* ---------- 固定ヘッダー：スクロールで背景を濃くする ---------- */
+  try {
+    var header = document.getElementById('epHeader');
+    if (header) {
+      var updateHeader = function () {
+        var y = window.scrollY || window.pageYOffset;
+        header.classList.toggle('is-scrolled', y > 40);
+      };
+      updateHeader();
+      window.addEventListener('scroll', updateHeader, { passive: true });
+    }
+  } catch (e) { /* header init failed, continue */ }
+
+  /* ---------- ハンバーガーメニュー／ドロワー ---------- */
+  try {
+    var burger = document.getElementById('burger');
+    var drawer = document.getElementById('drawer');
+    var overlay = document.getElementById('drawerOverlay');
+    var closeBtn = document.getElementById('drawerClose');
+
+    if (burger && drawer && overlay) {
+      var openDrawer = function () {
+        drawer.classList.add('is-open');
+        overlay.classList.add('is-open');
+        drawer.setAttribute('aria-hidden', 'false');
+        burger.setAttribute('aria-expanded', 'true');
+      };
+      var closeDrawer = function () {
+        drawer.classList.remove('is-open');
+        overlay.classList.remove('is-open');
+        drawer.setAttribute('aria-hidden', 'true');
+        burger.setAttribute('aria-expanded', 'false');
+      };
+      burger.addEventListener('click', openDrawer);
+      overlay.addEventListener('click', closeDrawer);
+      if (closeBtn) { closeBtn.addEventListener('click', closeDrawer); }
+
+      var drawerLinks = drawer.querySelectorAll('a');
+      drawerLinks.forEach(function (a) {
+        a.addEventListener('click', closeDrawer);
+      });
+    }
+  } catch (e) { /* drawer init failed, continue */ }
+
+  /* ---------- スムーススクロール（固定ヘッダー分を自動補正） ---------- */
+  try {
+    var headerEl = document.getElementById('epHeader');
+    var headerH = headerEl ? headerEl.offsetHeight : 64;
+    var anchorLinks = document.querySelectorAll('a[href^="#"]');
+    anchorLinks.forEach(function (link) {
+      link.addEventListener('click', function (ev) {
+        var targetId = link.getAttribute('href');
+        if (!targetId || targetId === '#') { return; }
+        var target = document.querySelector(targetId);
+        if (!target) { return; }
+        ev.preventDefault();
+        var top = target.getBoundingClientRect().top + window.pageYOffset - (headerH + 12);
+        window.scrollTo({ top: top, behavior: 'smooth' });
+      });
+    });
+  } catch (e) { /* smooth scroll init failed, continue */ }
+
+  /* ---------- スクロールリビール ---------- */
+  try {
+    var reveals = document.querySelectorAll('.ep-reveal');
+    if (reveals.length) {
+      if (!('IntersectionObserver' in window)) {
+        reveals.forEach(function (el) { el.classList.add('on'); });
+      } else {
+        var io = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('on');
+              io.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.12 });
+        reveals.forEach(function (el) { io.observe(el); });
+      }
+    }
+  } catch (e) { /* reveal init failed, continue */ }
+
+  /* ---------- 追従CTA（スマホ） ---------- */
+  try {
+    var sticky = document.getElementById('stickyCta');
+    if (sticky) {
+      var shown = false;
+      var updateSticky = function () {
+        var y = window.scrollY || window.pageYOffset;
+        var nearBottom = (window.innerHeight + y) >= (document.body.scrollHeight - 600);
+        var show = y > 600 && !nearBottom;
+        if (show !== shown) {
+          shown = show;
+          sticky.classList.toggle('show', show);
+        }
+      };
+      updateSticky();
+      window.addEventListener('scroll', updateSticky, { passive: true });
+    }
+  } catch (e) { /* sticky init failed, continue */ }
+
+  /* ---------- トップへ戻るボタン ---------- */
+  try {
+    var toTop = document.getElementById('backToTop');
+    if (toTop) {
+      var updateToTop = function () {
+        var y = window.scrollY || window.pageYOffset;
+        toTop.classList.toggle('show', y > 800);
+      };
+      updateToTop();
+      window.addEventListener('scroll', updateToTop, { passive: true });
+      toTop.addEventListener('click', function () {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    }
+  } catch (e) { /* toTop init failed, continue */ }
+
+});
+
+</script>
+
 </body>
 </html>
