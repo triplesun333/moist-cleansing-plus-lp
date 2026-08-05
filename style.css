@@ -1,4 +1,528 @@
-:root{--red:#971d24;--deep:#3f1719;--cream:#f7f1e8;--paper:#fffdf9;--ink:#302522;--muted:#75645e;--gold:#b28a4b;--line:#dfd1c0}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;line-height:1.8}img{display:block;max-width:100%}a{color:inherit;text-decoration:none}.header{position:absolute;z-index:20;top:0;left:0;width:100%;height:92px;padding:0 5vw;display:flex;align-items:center;color:#fff;border-bottom:1px solid #ffffff38}.brand img{width:104px;height:68px;object-fit:contain;filter:brightness(0) invert(1)}nav{display:flex;gap:34px;margin-left:auto;font-size:13px;letter-spacing:.08em}nav a{opacity:.88}.headerCta{margin-left:34px;padding:12px 22px;border:1px solid #fff;font-size:13px;letter-spacing:.08em}.hero{position:relative;min-height:760px;height:100vh;display:grid;grid-template-columns:minmax(0,1.1fr) minmax(320px,.75fr);align-items:center;padding:110px max(7vw,40px) 60px;overflow:hidden;background:#402b22}.heroBg{position:absolute;inset:0}.heroBg img{width:100%;height:100%;object-fit:cover}.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(45,25,18,.83) 0%,rgba(55,31,23,.62) 44%,rgba(65,43,31,.15) 100%)}.heroCopy,.heroProduct,.scroll{position:relative;z-index:2}.heroCopy{color:#fff;max-width:670px}.eyebrow{margin:0 0 18px;color:var(--gold);font:600 11px/1.4 Georgia,serif;letter-spacing:.27em}.hero .eyebrow{color:#eed39d}.hero h1{margin:0;font-family:"Yu Mincho","Hiragino Mincho ProN",serif;font-weight:500;font-size:clamp(40px,5vw,68px);line-height:1.45;letter-spacing:.06em}.heroLead{margin:25px 0;color:#f7eee7;font-size:16px;letter-spacing:.04em}.heroTags{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:28px}.heroTags span{padding:5px 13px;border:1px solid #ffffff66;font-size:12px}.primaryBtn,.outlineBtn{display:inline-flex;justify-content:center;align-items:center;gap:30px;min-width:280px;padding:17px 28px;background:var(--red);color:#fff;font-weight:700;letter-spacing:.06em;box-shadow:0 8px 24px #38101438;transition:.25s}.primaryBtn:hover{background:#b52b33;transform:translateY(-2px)}.small{font-size:11px;opacity:.75}.heroProduct{align-self:end;text-align:center;color:white}.heroProduct img{width:min(39vw,475px);height:min(39vw,475px);object-fit:contain;mix-blend-mode:multiply;position:relative}.heroProduct p{margin:-42px 0 25px;font-size:12px;letter-spacing:.1em}.heroProduct p strong{font:500 24px Georgia,serif}.glow{position:absolute;width:420px;height:420px;border-radius:50%;background:#fff9efbb;filter:blur(45px);top:20px;left:20px}.scroll{position:absolute;bottom:30px;left:4vw;color:#fff;font:10px Georgia,serif;letter-spacing:.3em;writing-mode:vertical-rl}.factBar{display:grid;grid-template-columns:repeat(4,1fr);max-width:1200px;margin:-1px auto 0;padding:36px 24px;background:#fff}.factBar div{text-align:center;padding:8px 20px;border-left:1px solid var(--line)}.factBar div:first-child{border:0}.factBar strong,.factBar span{display:block}.factBar strong{font-family:"Yu Mincho",serif;color:var(--red);font-size:18px}.factBar span{font-size:11px;color:var(--muted)}.section{padding:120px max(6vw,32px)}.empathy{max-width:1300px;margin:auto;display:grid;grid-template-columns:.9fr 1fr;gap:9vw;align-items:center}.portrait{position:relative;height:660px}.portrait img{width:100%;height:100%;object-fit:cover}.portrait:after{content:"";position:absolute;inset:22px -22px -22px 22px;border:1px solid var(--gold);z-index:-1}.copy{max-width:540px}h2{margin:0 0 26px;font-family:"Yu Mincho","Hiragino Mincho ProN",serif;font-size:clamp(30px,4vw,48px);font-weight:500;line-height:1.6;letter-spacing:.05em}.intro{color:var(--muted)}.checkList{list-style:none;margin:35px 0 0;padding:0}.checkList li{padding:17px 0 17px 30px;border-bottom:1px solid var(--line);position:relative}.checkList li:before{content:"✓";position:absolute;left:2px;color:var(--red)}.features{background:var(--cream)}.sectionHead{text-align:center;max-width:800px;margin:0 auto 65px}.sectionHead>p:last-child{color:var(--muted)}.featureGrid{max-width:1120px;margin:auto;display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.featureGrid article{background:var(--paper);padding:42px 34px;border-top:3px solid var(--red)}.featureGrid article>span{color:var(--gold);font:italic 24px Georgia,serif}.featureGrid h3,.stepGrid h3,.voiceGrid h3,.productGrid h3{font-family:"Yu Mincho",serif;font-size:22px;font-weight:500;line-height:1.55}.featureGrid p,.texture p,.stepGrid p{color:var(--muted);font-size:14px}.texture{max-width:1120px;margin:90px auto 0;display:grid;grid-template-columns:1.2fr .8fr;gap:60px;align-items:center}.textureImage{height:430px}.textureImage img{width:100%;height:100%;object-fit:cover}.texture h2{font-size:32px}.story{background:var(--deep);color:#fff;padding:120px max(6vw,32px)}.storyLead{max-width:760px;margin:0 auto 60px;text-align:center}.storyLead p:last-child{color:#e1cac1}.mangaRow{max-width:1300px;margin:auto;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.mangaRow figure{margin:0;background:#fff;color:var(--ink);padding:10px}.mangaRow figure>span{display:block;padding:5px;color:var(--gold);font:10px Georgia,serif;letter-spacing:.1em}.mangaRow figcaption{padding:14px 6px 8px;text-align:center;font-size:13px}.howto{background:var(--paper)}.stepGrid{max-width:1120px;margin:auto;display:grid;grid-template-columns:repeat(3,1fr);gap:28px}.stepGrid article>div{position:relative;height:245px}.stepGrid img{width:100%;height:100%;object-fit:cover}.stepGrid b{position:absolute;left:0;bottom:0;background:var(--red);color:#fff;padding:8px 16px;font:11px Georgia,serif;letter-spacing:.15em}.stepGrid h3{margin-bottom:4px}.voices{background:var(--red);color:#fff;padding:110px max(6vw,32px)}.sectionHead.light .eyebrow{color:#f0c989}.sectionHead.light>p:last-child{color:#f2dcd5}.voiceGrid{max-width:1120px;margin:auto;display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.voiceGrid article{background:#fff;color:var(--ink);padding:34px 30px}.voiceGrid article>span{color:var(--gold)}.voiceGrid p{color:var(--muted);font-size:14px}.voiceGrid small{color:#9a8179}.disclaimer{text-align:center;font-size:11px;opacity:.75;margin-top:20px}.products{background:var(--cream)}.productGrid{max-width:1080px;margin:auto;display:grid;grid-template-columns:repeat(3,1fr);gap:18px;align-items:stretch}.productGrid article{position:relative;background:#fff;padding:30px;text-align:center;border:1px solid var(--line)}.productGrid article.featured{border:2px solid var(--red);transform:translateY(-12px)}.ribbon{position:absolute;top:0;left:0;right:0;background:var(--red);color:#fff;padding:8px;font-size:12px}.productGrid img{width:100%;height:230px;object-fit:contain}.productGrid .featured img{margin-top:20px}.productName{font-size:11px;color:var(--muted)}.productGrid h3{margin:5px}.price{margin:10px 0;color:var(--red)}.price strong{font:500 38px Georgia,serif}.productGrid article>p:not(.price):last-of-type{min-height:58px;color:var(--muted);font-size:13px}.productGrid .primaryBtn,.outlineBtn{width:100%;min-width:0}.outlineBtn{background:#fff;color:var(--red);border:1px solid var(--red);box-shadow:none}.ingredients{max-width:1080px;margin:46px auto 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.ingredients summary{padding:20px;cursor:pointer;text-align:center;color:var(--red)}.ingredients details p{padding:0 22px 24px;color:var(--muted);font-size:12px}.finalCta{position:relative;min-height:600px;display:grid;place-items:center;text-align:center;color:#fff;overflow:hidden}.finalCta>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}.finalCta:after{content:"";position:absolute;inset:0;background:#351b1680}.finalCta>div{position:relative;z-index:1}.finalCta .eyebrow{color:#f5d798}.finalCta .primaryBtn{margin-top:12px}footer{padding:65px 24px 100px;background:#291719;color:#d9c8c2;text-align:center;font-size:12px}footer img{width:100px;height:80px;object-fit:contain;margin:auto;filter:brightness(0) invert(1);opacity:.82}.mobileCta{display:none}
-@media(max-width:760px){.header{height:72px;padding:0 18px}.brand img{width:78px;height:54px}nav,.headerCta{display:none}.hero{height:auto;min-height:760px;display:block;padding:118px 24px 90px}.hero:after{background:linear-gradient(180deg,#2d1914d9 0%,#42271dba 58%,#573b2d82 100%)}.hero h1{font-size:37px}.heroLead{font-size:14px}.heroProduct{position:absolute;right:-28px;bottom:42px}.heroProduct img{width:245px;height:245px}.heroProduct p{display:none}.glow{width:220px;height:220px}.heroCopy{position:relative;z-index:3}.heroCopy .primaryBtn{min-width:0;width:100%}.scroll{display:none}.factBar{grid-template-columns:1fr 1fr;padding:18px 12px}.factBar div{padding:15px 8px;border-top:1px solid var(--line)}.factBar div:nth-child(odd){border-left:0}.factBar div:nth-child(-n+2){border-top:0}.factBar strong{font-size:15px}.section{padding:82px 22px}.empathy{grid-template-columns:1fr;gap:55px}.portrait{height:430px}.empathy .copy{grid-row:1}.sectionHead{margin-bottom:42px}h2{font-size:30px}.featureGrid,.stepGrid,.voiceGrid,.productGrid{grid-template-columns:1fr}.featureGrid{gap:14px}.texture{grid-template-columns:1fr;gap:35px;margin-top:58px}.textureImage{height:290px}.texture h2{font-size:27px}.story{padding:82px 16px}.mangaRow{grid-template-columns:1fr 1fr;gap:8px}.mangaRow figure{padding:6px}.mangaRow figcaption{font-size:11px;padding:9px 2px}.stepGrid article>div{height:250px}.voices{padding:82px 22px}.productGrid article.featured{transform:none}.finalCta{min-height:500px;padding:40px 22px}footer{padding-bottom:100px}.mobileCta{display:block;position:fixed;z-index:50;left:12px;right:12px;bottom:10px;background:var(--red);color:#fff;text-align:center;padding:14px;border:1px solid #ffffff55;box-shadow:0 7px 30px #32101470;font-weight:700}.pc{display:none}}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.primaryBtn{transition:none}}
+/* ============================================================
+   モイストクレンジングプラスLP / style.css
+   全セレクタを .ep-guide-page 配下に限定（ecforce要件）
+============================================================ */
+
+.ep-guide-page{
+  --ivory:#F5F0E8;
+  --paper:#FFFDF9;
+  --ink:#332B22;
+  --ink-soft:#6B5F4C;
+  --ink-mist:#8C8067;
+  --gold:#C0A268;
+  --gold-light:#E8DCC2;
+  --gold-pale:#F2EBDC;
+  --gold-deep:#9C7D47;
+  --green:#2E4A3A;
+  --green-deep:#20342A;
+  --green-soft:#4F6B58;
+  --green-pale:#E4EBE4;
+
+  font-family:'Zen Kaku Gothic New',sans-serif;
+  background:var(--ivory);
+  color:var(--ink);
+  line-height:2;
+  font-size:16px;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+.ep-guide-page *{box-sizing:border-box;}
+.ep-guide-page img{max-width:100%;display:block;}
+:where(.ep-guide-page) a{color:inherit;}
+.ep-guide-page ul,.ep-guide-page dl{list-style:none;margin:0;padding:0;}
+
+.ep-serif{font-family:'Shippori Mincho',serif;}
+.ep-container{max-width:1100px;margin:0 auto;padding:0 24px;}
+.ep-container-narrow{max-width:860px;margin:0 auto;padding:0 24px;}
+.ep-sec{padding:92px 0;}
+.ep-center{text-align:center;}
+.ep-right{text-align:right;}
+
+.ep-eyebrow{
+  font-size:12px;letter-spacing:.36em;color:var(--gold-deep);
+  margin-bottom:16px;text-transform:uppercase;
+}
+.ep-h2{
+  font-family:'Shippori Mincho',serif;
+  font-size:clamp(24px,3.6vw,36px);
+  font-weight:600;letter-spacing:.07em;line-height:1.75;
+  margin:0 0 18px;
+}
+.ep-h3{
+  font-family:'Shippori Mincho',serif;
+  font-size:17px;font-weight:600;letter-spacing:.04em;line-height:1.7;
+  margin:0 0 10px;
+}
+.ep-sec-head{
+  display:flex;justify-content:space-between;align-items:flex-end;gap:40px;
+  flex-wrap:wrap;margin-bottom:48px;
+}
+.ep-sec-head p{color:var(--ink-soft);max-width:30em;font-size:14.5px;line-height:2;}
+.ep-note{font-size:12.5px;color:var(--ink-mist);}
+
+.ep-btn{
+  display:inline-block;font-family:'Shippori Mincho',serif;
+  font-size:15.5px;letter-spacing:.16em;padding:17px 46px;
+  text-decoration:none;transition:all .25s ease;text-align:center;
+}
+.ep-btn-primary{background:var(--green-deep);color:#fff;}
+.ep-btn-primary:hover{background:var(--gold-deep);}
+.ep-btn-line{background:transparent;border:1px solid var(--gold-deep);color:var(--ink);}
+.ep-btn-line:hover{background:var(--gold-deep);color:#fff;}
+.ep-btn:focus-visible{outline:3px solid var(--gold);outline-offset:2px;}
+
+/* ======== ヘッダー ======== */
+.ep-header{
+  position:fixed;top:0;left:0;right:0;z-index:100;
+  padding:14px 0;background:rgba(32,52,42,.0);
+  transition:background .3s ease;
+}
+.ep-header.is-scrolled{background:rgba(32,52,42,.94);}
+.ep-header-inner{
+  max-width:1100px;margin:0 auto;padding:0 24px;
+  display:flex;align-items:center;justify-content:space-between;
+}
+.ep-header-logo img{height:34px;width:auto;}
+.ep-burger{
+  width:40px;height:32px;background:none;border:none;cursor:pointer;
+  display:flex;flex-direction:column;justify-content:space-between;padding:4px 2px;
+}
+.ep-burger span{display:block;height:1.5px;width:100%;background:#fff;}
+
+/* ======== ドロワー ======== */
+.ep-drawer-overlay{
+  position:fixed;inset:0;background:rgba(20,28,22,.5);z-index:150;
+  opacity:0;visibility:hidden;transition:opacity .3s ease;
+}
+.ep-drawer-overlay.is-open{opacity:1;visibility:visible;}
+.ep-drawer{
+  position:fixed;top:0;right:0;bottom:0;width:min(320px,84vw);
+  background:var(--green-deep);color:var(--ivory);z-index:160;
+  padding:70px 34px 34px;transform:translateX(100%);transition:transform .32s ease;
+  overflow-y:auto;
+}
+.ep-drawer.is-open{transform:translateX(0);}
+.ep-drawer-close{
+  position:absolute;top:20px;right:24px;background:none;border:none;
+  color:#fff;font-size:26px;cursor:pointer;line-height:1;
+}
+.ep-drawer-nav li{border-bottom:1px solid rgba(255,255,255,.14);}
+.ep-drawer-nav a{
+  display:block;padding:16px 2px;font-size:14.5px;letter-spacing:.06em;
+  text-decoration:none;color:var(--ivory);
+}
+.ep-drawer-cta{color:var(--gold-light) !important;font-family:'Shippori Mincho',serif;}
+.ep-drawer-tel{margin-top:30px;font-size:12.5px;color:#D8E0DA;line-height:1.9;}
+.ep-drawer-tel a{font-family:'Shippori Mincho',serif;font-size:19px;color:#fff;display:block;margin:6px 0;}
+
+/* ======== ヒーロー ======== */
+.ep-hero{position:relative;min-height:92vh;display:flex;align-items:center;background:var(--green-deep);overflow:hidden;}
+.ep-hero-media{position:absolute;inset:0;}
+.ep-hero-media img{width:100%;height:100%;object-fit:cover;opacity:.94;}
+.ep-hero::after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(100deg,rgba(20,30,24,.72) 0%,rgba(20,30,24,.42) 44%,rgba(20,30,24,.06) 100%);
+}
+.ep-hero-inner{position:relative;z-index:2;padding:132px 24px 96px;color:var(--ivory);width:100%;}
+.ep-hero-brand{font-size:12px;letter-spacing:.44em;color:var(--gold-light);margin-bottom:26px;}
+.ep-hero-title{
+  font-family:'Shippori Mincho',serif;
+  font-size:clamp(28px,4.8vw,48px);font-weight:600;line-height:1.7;letter-spacing:.06em;
+  margin-bottom:26px;
+}
+.ep-l{display:inline-block;}
+.ep-hero-title em{font-style:normal;color:var(--gold-light);}
+.ep-hero-lead{font-size:clamp(14px,1.5vw,16px);color:#EBE6DA;max-width:32em;line-height:2.1;margin-bottom:32px;}
+.ep-hero-badges{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:38px;}
+.ep-badge{
+  font-size:12px;letter-spacing:.06em;padding:7px 16px;
+  border:1px solid rgba(232,220,194,.5);color:var(--gold-light);
+}
+.ep-hero-actions{display:flex;flex-direction:column;align-items:flex-start;gap:16px;margin-bottom:26px;}
+.ep-hero-textlink{font-size:13.5px;letter-spacing:.04em;text-decoration:underline;color:#EDE7D8;}
+.ep-hero-proof{font-size:13px;color:var(--gold-light);letter-spacing:.03em;}
+
+/* ======== クイック値バー ======== */
+.ep-quick{background:var(--paper);border-bottom:1px solid var(--gold-light);}
+.ep-quick-grid{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:0;
+  padding:30px 24px;
+}
+.ep-quick-item{
+  text-align:center;padding:0 14px;border-left:1px solid var(--gold-light);
+}
+.ep-quick-item:first-child{border-left:none;}
+.ep-quick-item strong{
+  display:block;font-family:'Shippori Mincho',serif;font-size:clamp(18px,2vw,22px);
+  color:var(--green-deep);margin-bottom:6px;
+}
+.ep-quick-item span{font-size:12px;color:var(--ink-soft);letter-spacing:.02em;}
+
+/* ======== 共感 ======== */
+.ep-empathy{background:var(--paper);}
+.ep-empathy-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;}
+.ep-checklist{margin:24px 0 30px;}
+.ep-check{
+  font-family:'Shippori Mincho',serif;font-size:16.5px;line-height:1.85;
+  padding:15px 0 15px 28px;position:relative;border-bottom:1px solid var(--gold-light);
+  color:var(--ink-soft);
+}
+.ep-check::before{content:"—";position:absolute;left:0;color:var(--gold-deep);}
+.ep-empathy-close{font-family:'Shippori Mincho',serif;font-size:18px;line-height:2;color:var(--ink);}
+.ep-empathy-image{position:relative;}
+.ep-empathy-image img{width:100%;height:480px;object-fit:cover;}
+.ep-empathy-image::after{
+  content:"";position:absolute;top:16px;left:16px;right:-16px;bottom:-16px;
+  border:1px solid var(--gold);z-index:-1;
+}
+
+/* ======== 4コマ漫画 ======== */
+.ep-manga{background:var(--ivory);}
+.ep-manga-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;}
+.ep-manga-item{margin:0;}
+.ep-manga-frame{
+  position:relative;width:100%;padding-top:100%;overflow:hidden;
+  border:1px solid var(--gold-light);background:var(--paper);
+}
+.ep-manga-frame img{
+  position:absolute;top:0;left:0;width:100%;height:100%;
+  object-fit:cover;border:none;
+}
+.ep-manga-item figcaption{font-size:12.5px;color:var(--ink-soft);line-height:1.85;margin-top:12px;}
+
+/* ======== 選ばれる理由 ======== */
+.ep-reasons{background:var(--paper);}
+.ep-reason-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:44px;}
+.ep-reason-card{border-top:2px solid var(--gold-deep);padding-top:22px;}
+.ep-reason-icon{
+  display:flex;align-items:center;justify-content:center;
+  width:44px;height:44px;border-radius:50%;background:var(--green-pale);
+  color:var(--green-deep);margin-bottom:16px;
+}
+.ep-reason-icon svg{width:22px;height:22px;}
+.ep-reason-num{font-size:11.5px;letter-spacing:.2em;color:var(--gold-deep);margin-bottom:14px;}
+.ep-reason-value{
+  font-family:'Shippori Mincho',serif;font-size:clamp(30px,4vw,40px);
+  font-weight:700;color:var(--green-deep);line-height:1.2;margin-bottom:14px;
+}
+.ep-reason-value small{font-size:16px;font-weight:600;margin-left:2px;}
+.ep-reason-card p{font-size:14px;color:var(--ink-soft);line-height:2;}
+
+/* ======== 独自性 / 逆説 ======== */
+.ep-compare{background:var(--green-deep);color:var(--ivory);}
+.ep-compare .ep-eyebrow{color:var(--gold-light);}
+.ep-compare .ep-h2{color:#fff;}
+.ep-compare .ep-sec-head p{color:#D8E0DA;}
+.ep-compare-grid{
+  display:grid;grid-template-columns:1fr 1fr;gap:1px;
+  background:var(--gold-deep);border:1px solid var(--gold-deep);margin-top:8px;
+}
+.ep-compare-card{background:var(--green-deep);padding:38px 32px;}
+.ep-compare-card.ep-featured{background:#324F3F;}
+.ep-compare-label{font-size:11px;letter-spacing:.2em;color:#C9D6CC;margin-bottom:8px;}
+.ep-compare-card.ep-featured .ep-compare-label{color:var(--gold-light);}
+.ep-compare-card .ep-h3{color:#fff;}
+.ep-compare-card p{font-size:14px;color:#DCE3DA;line-height:2;}
+.ep-flow{display:flex;gap:6px;align-items:center;margin:18px 0 20px;height:20px;}
+.ep-dot{width:9px;height:9px;border-radius:50%;background:#8FA79A;opacity:.8;}
+.ep-featured .ep-dot{width:12px;height:12px;background:var(--gold-light);opacity:1;}
+.ep-link{width:9px;height:2px;background:var(--gold);}
+.ep-compare-note{
+  font-family:'Shippori Mincho',serif;font-size:15.5px;line-height:2;
+  color:#E7EDE4;margin-top:30px;max-width:36em;
+}
+.ep-proof{margin-top:36px;}
+.ep-proof img{width:100%;height:340px;object-fit:cover;}
+.ep-proof figcaption{font-size:12.5px;color:#C9D6CC;margin-top:12px;line-height:1.85;}
+
+/* ======== 開発ストーリー ======== */
+.ep-story{background:var(--paper);}
+.ep-story-grid{display:grid;grid-template-columns:340px 1fr;gap:64px;align-items:start;}
+.ep-story-photo{position:sticky;top:60px;}
+.ep-story-photo img{width:100%;height:440px;object-fit:cover;}
+.ep-story-photo figcaption{font-size:12px;letter-spacing:.2em;color:var(--gold-deep);margin-top:12px;text-align:center;}
+.ep-timeline{margin:26px 0 30px;}
+.ep-timeline-item{
+  display:grid;grid-template-columns:76px 1fr;gap:22px;
+  padding:20px 0;border-bottom:1px solid var(--gold-light);
+}
+.ep-timeline-item:first-child{border-top:1px solid var(--gold-light);}
+.ep-timeline-year{font-family:'Shippori Mincho',serif;font-size:14px;color:var(--gold-deep);letter-spacing:.06em;padding-top:2px;}
+.ep-timeline-item p{font-size:14px;color:var(--ink-soft);line-height:1.95;}
+.ep-story-quote{
+  font-family:'Shippori Mincho',serif;font-size:16.5px;line-height:2;color:var(--ink);
+  border-left:2px solid var(--gold);padding-left:22px;margin-top:8px;
+}
+
+/* ======== 使い方 ======== */
+.ep-howto{background:var(--ivory);}
+.ep-howto-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;}
+.ep-how-card{background:var(--paper);border:1px solid var(--gold-light);}
+.ep-how-card img{width:100%;height:200px;object-fit:cover;}
+.ep-how-body{padding:22px 22px 26px;}
+.ep-kicker{font-family:'Shippori Mincho',serif;font-size:11.5px;letter-spacing:.3em;color:var(--gold-deep);margin-bottom:10px;}
+.ep-how-body p{font-size:13.5px;color:var(--ink-soft);line-height:1.95;}
+
+/* ======== セクションCTA（section-cta） ======== */
+.ep-section-cta{margin-top:34px;font-size:13.5px;}
+.ep-section-cta a{
+  color:var(--gold-deep);text-decoration:none;
+  border-bottom:1px solid var(--gold);padding-bottom:2px;
+  letter-spacing:.03em;
+}
+.ep-section-cta a:hover{color:var(--ink);border-color:var(--ink);}
+.ep-compare .ep-section-cta a{color:var(--gold-light);border-color:var(--gold);}
+.ep-compare .ep-section-cta a:hover{color:#fff;}
+
+/* ======== レビューグラフ ======== */
+.ep-review-graph{
+  max-width:520px;margin:0 auto 48px;text-align:center;
+  padding:28px 30px;background:var(--ivory);border:1px solid var(--gold-light);
+}
+.ep-review-graph-num{
+  font-family:'Shippori Mincho',serif;color:var(--green-deep);
+  margin-bottom:14px;line-height:1;
+}
+.ep-review-graph-num strong{font-size:clamp(34px,4.5vw,46px);font-weight:700;}
+.ep-review-graph-num span{font-size:18px;margin-left:2px;}
+.ep-review-graph-bar{
+  height:10px;background:var(--gold-pale);border:1px solid var(--gold-light);
+  overflow:hidden;margin-bottom:14px;
+}
+.ep-review-graph-fill{height:100%;background:var(--gold-deep);}
+.ep-review-graph-label{font-size:11.5px;color:var(--ink-mist);line-height:1.8;}
+
+/* ======== お客様の声 ======== */
+.ep-voices{background:var(--paper);}
+.ep-voice-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-bottom:8px;}
+.ep-voice{background:var(--ivory);padding:30px 26px;border-top:2px solid var(--gold);display:flex;flex-direction:column;}
+.ep-stars{color:var(--gold-deep);letter-spacing:2px;font-size:13px;margin-bottom:10px;}
+.ep-voice p{font-size:14px;color:var(--ink-soft);line-height:2;flex:1;}
+.ep-voice-meta{font-size:12px;color:var(--ink-mist);margin-top:18px;letter-spacing:.03em;}
+.ep-trust{
+  display:flex;justify-content:center;margin-top:52px;
+  border-top:1px solid var(--gold-light);border-bottom:1px solid var(--gold-light);
+}
+.ep-trust-item{flex:1;text-align:center;padding:28px 16px;border-left:1px solid var(--gold-light);}
+.ep-trust-item:first-child{border-left:none;}
+.ep-trust-item strong{display:block;font-family:'Shippori Mincho',serif;font-size:16px;letter-spacing:.08em;margin-bottom:6px;}
+.ep-trust-item span{font-size:12px;color:var(--ink-mist);line-height:1.8;}
+.ep-midcta{text-align:center;margin-top:52px;}
+.ep-microcopy{font-size:12.5px;color:var(--ink-mist);margin-top:14px;}
+
+/* ======== コスパ ======== */
+.ep-cost{background:var(--green-deep);color:var(--ivory);text-align:center;}
+.ep-cost .ep-eyebrow{color:var(--gold-light);}
+.ep-cost .ep-h2{color:#fff;}
+.ep-cost-value{
+  font-family:'Shippori Mincho',serif;font-size:clamp(40px,6vw,64px);
+  color:var(--gold-light);font-weight:700;line-height:1.3;margin:10px 0 16px;
+}
+.ep-cost-value small{font-size:18px;font-weight:600;}
+.ep-cost p{color:#DCE3DA;max-width:34em;margin:0 auto;font-size:14.5px;}
+
+/* ======== 向き不向き ======== */
+.ep-fit{background:var(--paper);}
+.ep-fit-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--gold-light);border:1px solid var(--gold-light);margin-top:8px;}
+.ep-fit-card{background:var(--paper);padding:34px 30px;}
+.ep-fit-card.ep-good{background:var(--gold-pale);}
+.ep-fit-head{display:flex;align-items:center;gap:14px;margin-bottom:22px;}
+.ep-fit-head .ep-h3{margin:0;}
+.ep-fit-mark{
+  flex:none;width:34px;height:34px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  font-family:'Shippori Mincho',serif;font-size:16px;font-weight:700;
+}
+.ep-mark-no{background:#E7D9D3;color:#9C6248;}
+.ep-mark-yes{background:var(--gold-deep);color:#fff;}
+.ep-fit-list li{
+  font-size:14px;color:var(--ink-soft);line-height:1.9;
+  display:flex;gap:10px;margin-bottom:14px;
+}
+.ep-fit-list li:last-child{margin-bottom:0;}
+.ep-fit-icon{
+  flex:none;width:20px;height:20px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  font-size:11px;font-weight:700;margin-top:2px;
+}
+.ep-icon-no{background:#E7D9D3;color:#9C6248;}
+.ep-icon-yes{background:var(--gold-deep);color:#fff;}
+.ep-note.ep-right{margin-top:22px;}
+
+/* ======== 成分 ======== */
+.ep-spec{background:var(--ivory);}
+.ep-spec-stats{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:0;
+  background:var(--paper);border:1px solid var(--gold-light);margin-top:6px;
+}
+.ep-spec-stat{text-align:center;padding:26px 16px;border-left:1px solid var(--gold-light);}
+.ep-spec-stat:first-child{border-left:none;}
+.ep-spec-stat strong{
+  display:block;font-family:'Shippori Mincho',serif;font-size:clamp(18px,2.2vw,24px);
+  color:var(--green-deep);margin-bottom:8px;
+}
+.ep-spec-stat strong small{font-size:13px;font-weight:500;}
+.ep-spec-stat span{font-size:12px;color:var(--ink-mist);}
+.ep-spec-badges{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px;}
+.ep-spec-badge{
+  font-size:12.5px;letter-spacing:.04em;color:var(--green-deep);
+  background:var(--green-pale);border:1px solid var(--green-soft);
+  padding:8px 18px;
+}
+.ep-ingredients{margin-top:26px;border-top:1px solid var(--gold-light);}
+.ep-ingredients summary{
+  padding:18px 30px 18px 4px;cursor:pointer;list-style:none;position:relative;
+  font-size:13.5px;letter-spacing:.05em;color:var(--gold-deep);
+}
+.ep-ingredients summary::-webkit-details-marker{display:none;}
+.ep-ingredients summary::after{content:"＋";position:absolute;right:4px;top:18px;color:var(--gold-deep);}
+.ep-ingredients[open] summary::after{content:"−";}
+.ep-ingredients p{
+  font-size:12.5px;color:var(--ink-mist);line-height:2.1;
+  padding:0 4px 22px;
+}
+.ep-caution{
+  margin-top:20px;padding:22px 24px;background:var(--gold-pale);
+  font-size:13px;color:var(--ink-soft);line-height:2;
+}
+
+/* ======== 商品ラインナップ ======== */
+.ep-offer{background:var(--paper);}
+.ep-offer-lead{text-align:center;color:var(--ink-soft);font-size:14.5px;margin-bottom:40px;}
+.ep-offer-grid{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:24px;margin-bottom:44px;
+}
+.ep-offer-card{
+  background:var(--ivory);border:1px solid var(--gold-light);padding:34px 26px;
+  text-align:center;position:relative;display:flex;flex-direction:column;
+}
+.ep-offer-card.ep-trial{border:1px solid var(--gold-deep);}
+.ep-ribbon{
+  position:absolute;top:-13px;left:50%;transform:translateX(-50%);
+  background:var(--gold-deep);color:#fff;font-size:11.5px;letter-spacing:.14em;
+  padding:5px 16px;white-space:nowrap;
+}
+.ep-offer-img{width:100%;height:170px;object-fit:contain;margin-bottom:20px;}
+.ep-offer-name{font-size:12px;color:var(--ink-mist);letter-spacing:.03em;margin-bottom:4px;}
+.ep-offer-plan{font-family:'Shippori Mincho',serif;font-size:16px;letter-spacing:.1em;color:var(--gold-deep);margin-bottom:12px;}
+.ep-offer-price{font-family:'Shippori Mincho',serif;font-size:clamp(26px,3vw,34px);font-weight:700;line-height:1.3;}
+.ep-offer-price small{font-size:13px;font-weight:500;}
+.ep-offer-sub{font-size:12px;color:var(--ink-mist);margin:6px 0 20px;}
+.ep-offer-list{font-size:13px;color:var(--ink-soft);line-height:2;margin-bottom:22px;text-align:left;padding:0 4px;flex:1;}
+.ep-offer-list li{padding-left:16px;position:relative;}
+.ep-offer-list li::before{content:"・";position:absolute;left:0;}
+.ep-micro{font-size:11.5px;color:var(--ink-mist);margin-top:12px;}
+.ep-teiki{max-width:640px;margin:0 auto;background:var(--green-pale);padding:28px 30px;font-size:14px;color:var(--ink-soft);line-height:2.05;}
+.ep-teiki .ep-h3{color:var(--green-deep);}
+.ep-teiki a{display:inline-block;margin-top:12px;font-size:13.5px;color:var(--gold-deep);text-decoration:none;border-bottom:1px solid var(--gold);padding-bottom:2px;}
+.ep-teiki a:hover{color:var(--ink);}
+.ep-tel{margin-top:44px;text-align:center;font-size:13.5px;color:var(--ink-soft);}
+.ep-tel a{font-family:'Shippori Mincho',serif;font-size:26px;letter-spacing:.05em;color:var(--ink);display:block;margin:8px 0 4px;text-decoration:none;}
+
+/* ======== フォーム導入見出し ======== */
+.ep-formlead{background:var(--green-deep);color:var(--ivory);}
+.ep-formlead .ep-eyebrow{color:var(--gold-light);}
+.ep-formlead .ep-h2{color:#fff;}
+.ep-formlead-text{color:#DCE3DA;font-size:14px;}
+
+/* ======== Q&A ======== */
+.ep-faq{background:var(--paper);}
+.ep-qa{border-bottom:1px solid var(--gold-light);}
+.ep-qa:first-of-type{border-top:1px solid var(--gold-light);}
+.ep-qa summary{
+  font-family:'Shippori Mincho',serif;font-size:15.5px;padding:22px 36px 22px 40px;
+  cursor:pointer;position:relative;letter-spacing:.03em;list-style:none;
+}
+.ep-qa summary::-webkit-details-marker{display:none;}
+.ep-qa summary::before{content:"Q";position:absolute;left:2px;top:22px;font-family:'Shippori Mincho',serif;color:var(--gold-deep);font-weight:700;}
+.ep-qa summary::after{content:"＋";position:absolute;right:6px;top:22px;color:var(--gold-deep);transition:transform .25s ease;}
+.ep-qa[open] summary::after{content:"−";}
+.ep-qa-a{padding:0 36px 24px 40px;font-size:13.5px;color:var(--ink-soft);line-height:2;position:relative;}
+.ep-qa-a::before{content:"A";position:absolute;left:2px;top:0;font-family:'Shippori Mincho',serif;color:var(--gold);font-weight:700;font-size:15px;}
+
+/* ======== 最終メッセージ ======== */
+.ep-final{position:relative;background:var(--green-deep);color:var(--ivory);text-align:center;overflow:hidden;}
+.ep-final-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.48;}
+.ep-final > .ep-container-narrow{position:relative;z-index:2;padding-top:96px;padding-bottom:96px;}
+.ep-final-msg{
+  font-family:'Shippori Mincho',serif;font-size:clamp(21px,3.2vw,32px);
+  line-height:2;letter-spacing:.08em;margin-bottom:38px;
+  text-shadow:0 1px 14px rgba(20,30,24,.6);
+}
+
+/* ======== 直営店案内 ======== */
+.ep-shop{background:var(--paper);}
+.ep-shop-text{color:var(--ink-soft);max-width:34em;margin:0 auto 30px;font-size:14px;}
+
+/* ======== フッター ======== */
+.ep-footer{max-width:1100px;margin:0 auto;padding:60px 24px 40px;text-align:center;}
+.ep-footer-logo{margin:0 auto 18px;}
+.ep-footer-text{font-size:12.5px;color:var(--ink-soft);line-height:2;}
+.ep-footer-text a{color:var(--gold-deep);}
+
+/* ======== 追従CTA（スマホ） ======== */
+.ep-sticky{
+  position:fixed;left:0;right:0;bottom:0;z-index:90;
+  background:var(--green-deep);
+  transform:translateY(100%);transition:transform .3s ease;
+}
+.ep-sticky.show{transform:translateY(0);}
+.ep-sticky a{
+  display:block;text-align:center;padding:16px 12px;color:#fff;
+  font-family:'Shippori Mincho',serif;font-size:14.5px;letter-spacing:.05em;text-decoration:none;
+}
+
+/* ======== トップへ戻る ======== */
+.ep-totop{
+  position:fixed;right:18px;bottom:78px;z-index:80;
+  width:42px;height:42px;background:rgba(46,74,58,.86);color:#fff;border:none;
+  cursor:pointer;font-size:13px;opacity:0;visibility:hidden;transition:opacity .3s ease;
+}
+.ep-totop.show{opacity:1;visibility:visible;}
+
+/* ======== スクロールリビール ======== */
+.ep-reveal{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease;}
+.ep-reveal.on{opacity:1;transform:translateY(0);}
+@media (prefers-reduced-motion:reduce){
+  .ep-reveal{opacity:1;transform:none;transition:none;}
+}
+
+/* ======== キャンペーン差し込み枠 ======== */
+.ep-campaign{background:var(--green-deep);color:var(--ivory);padding:20px 0;text-align:center;font-size:13.5px;}
+
+/* ============================================================
+   レスポンシブ
+============================================================ */
+@media (max-width:1024px){
+  .ep-story-grid{grid-template-columns:1fr;}
+  .ep-story-photo{position:static;}
+  .ep-story-photo img{height:340px;}
+}
+@media (max-width:768px){
+  .ep-sec{padding:64px 0;}
+  .ep-empathy-grid{grid-template-columns:1fr;gap:32px;}
+  .ep-empathy-image img{height:320px;}
+  .ep-manga-grid{grid-template-columns:repeat(2,1fr);gap:14px;}
+  .ep-reason-grid{grid-template-columns:1fr;gap:34px;}
+  .ep-compare-grid{grid-template-columns:1fr;}
+  .ep-howto-grid{grid-template-columns:1fr;}
+  .ep-voice-grid{grid-template-columns:1fr;}
+  .ep-trust{flex-direction:column;}
+  .ep-trust-item{border-left:none;border-top:1px solid var(--gold-light);}
+  .ep-trust-item:first-child{border-top:none;}
+  .ep-fit-grid{grid-template-columns:1fr;}
+  .ep-spec-stats{grid-template-columns:1fr;}
+  .ep-spec-stat{border-left:none;border-top:1px solid var(--gold-light);}
+  .ep-spec-stat:first-child{border-top:none;}
+  .ep-quick-grid{grid-template-columns:repeat(2,1fr);gap:20px;}
+  .ep-quick-item{border-left:none;border-top:1px solid var(--gold-light);padding-top:16px;}
+  .ep-quick-item:nth-child(1),.ep-quick-item:nth-child(2){border-top:none;}
+  .ep-offer-grid{grid-template-columns:1fr;}
+  .ep-timeline-item{grid-template-columns:1fr;gap:6px;}
+  .ep-hero-inner{padding:120px 24px 80px;}
+  .ep-sec-head{flex-direction:column;align-items:flex-start;gap:14px;}
+}
+@media (max-width:480px){
+  .ep-sec{padding:52px 0;}
+  .ep-h2{font-size:23px;}
+}
